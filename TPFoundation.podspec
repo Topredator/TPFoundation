@@ -32,6 +32,21 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TPFoundation/Classes/TPFoundation.h'
   
+  s.subspec 'Base' do |ss|
+      ss.source_files = 'TPFoundation/Classes/Base/**/*'
+  end
+  
+  s.subspec 'Category' do |ss|
+      ss.source_files = 'TPFoundation/Classes/Category/**/*'
+      ss.dependency 'TPFoundation/Base'
+  end
+  
+  s.subspec 'Utils' do |ss|
+      ss.source_files = 'TPFoundation/Classes/Utils/**/*'
+      ss.dependency 'TPFoundation/Base'
+      ss.dependency 'TPFoundation/Category'
+  end
+  
   # s.resource_bundles = {
   #   'TPFoundation' => ['TPFoundation/Assets/*.png']
   # }
