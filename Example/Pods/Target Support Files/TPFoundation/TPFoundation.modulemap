@@ -1,0 +1,6 @@
+framework module TPFoundation {
+  umbrella header "TPFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TPFoundation_Example {
+  umbrella header "Pods-TPFoundation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

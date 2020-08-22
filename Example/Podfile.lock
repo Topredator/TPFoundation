@@ -1,0 +1,16 @@
+PODS:
+  - TPFoundation (0.1.0)
+
+DEPENDENCIES:
+  - TPFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  TPFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPFoundation: 14b994f7be2aa8adbaec0bd78b1cbeb11fae80d5
+
+PODFILE CHECKSUM: eae978d07f735ec3d11ed19024c791f1e7aeec7f
+
+COCOAPODS: 1.9.3

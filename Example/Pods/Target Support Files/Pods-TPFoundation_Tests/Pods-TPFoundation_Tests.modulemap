@@ -1,0 +1,6 @@
+framework module Pods_TPFoundation_Tests {
+  umbrella header "Pods-TPFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
