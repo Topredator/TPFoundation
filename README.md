@@ -22,7 +22,7 @@ pod 'TPFoundation'
 
 ## Author
 
-周晓路, luyanggold@163.com
+Topredator, luyanggold@163.com
 
 ## License
 
