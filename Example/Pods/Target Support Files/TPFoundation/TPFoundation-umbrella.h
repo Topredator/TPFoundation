@@ -25,6 +25,9 @@
 #import "UIViewController+TPPresentStyle.h"
 #import "TPCommonUD.h"
 #import "TPQRCode.h"
+#import "TPCellModel.h"
+#import "UICollectionView+TPCellModel.h"
+#import "UITableView+TPCellModel.h"
 #import "TPThreadSafeArray.h"
 #import "TPThreadSafeDictionary.h"
 
