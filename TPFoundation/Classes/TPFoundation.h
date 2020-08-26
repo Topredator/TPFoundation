@@ -31,4 +31,17 @@
 #import "TPThreadSafeArray.h"
 #import "TPThreadSafeDictionary.h"
 
+// cell 注册
+#import "UITableView+TPCellModel.h"
+
+// Base
+#import "TPModelID.h"
+#import "TPMutableArray.h"
+
+// 数据驱动table
+#import "TPTableRow.h"
+#import "TPTableSection.h"
+#import "TPTableViewProxy.h"
+
+
 #endif /* TPFoundation_h */
