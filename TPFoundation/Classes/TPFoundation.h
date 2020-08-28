@@ -25,6 +25,10 @@
 #import "NSMutableDictionary+TPSafe.h"
 
 #import "UIView+TPExtend.h"
+#import "UIView+TPToImage.h"
+#import "UIApplication+TPExtend.h"
+
+#import "UIScrollView+TPExtend.h"
 // Utils
 #import "TPQRCode.h"
 #import "TPCommonUD.h"
@@ -43,5 +47,16 @@
 #import "TPTableSection.h"
 #import "TPTableViewProxy.h"
 
+#import "TPCollectionRow.h"
+#import "TPCollectionSection.h"
+#import "TPCollectionViewProxy.h"
+// weakProxy
+#import "TPMultipleProxy.h"
+#import "TPWeakProxy.h"
+// Verify
+#import "TPVerify.h"
+/// GCD
+#import "TPGCDQueue.h"
+#import "TPGCDSemaphore.h"
 
 #endif /* TPFoundation_h */

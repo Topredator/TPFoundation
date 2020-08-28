@@ -28,7 +28,7 @@
     return self;
 }
 - (instancetype)initWithID:(id<NSCopying>)rowid {
-    if (self = [super init]) {
+    if (self = [self init]) {
         self.mIdentity = rowid;
     }
     return self;

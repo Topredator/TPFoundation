@@ -5,8 +5,7 @@
 //  Created by Topredator on 2020/8/26.
 //
 
-#import <TPFoundation/TPFoundation.h>
-
+#import "TPMutableArray.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @class TPTableViewProxy;

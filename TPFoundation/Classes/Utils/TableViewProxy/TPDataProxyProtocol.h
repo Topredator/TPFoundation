@@ -10,7 +10,7 @@
 
 /// 数据代理协议
 @protocol TPDataProxyProtocol <NSObject>
-/// 数据绑定 容器
+/// 数据绑定 容器; 例:{cell : row} cell为key，row为value
 - (NSMapTable *)dataBindingMap;
 @end
 
