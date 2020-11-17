@@ -1,6 +1,6 @@
 {
   "name": "TPFoundation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A collection function library of TPFoundation.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Topredator/TPFoundation",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Topredator/TPFoundation.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"

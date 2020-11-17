@@ -13,10 +13,12 @@
 #import "NSObject+TPKVO.h"
 #import "NSObject+TPNotify.h"
 
+#import "NSDate+TPExtend.h"
+
 #import "NSString+TPFilter.h"
 #import "NSString+TPDate.h"
 #import "NSString+TPCoding.h"
-
+#import "NSString+TPCalSize.h"
 #import "UIDevice+TPExtend.h"
 
 #import "UIViewController+TPPresentStyle.h"
@@ -59,4 +61,6 @@
 #import "TPGCDQueue.h"
 #import "TPGCDSemaphore.h"
 
+/// 截屏
+#import "TPScreenShot.h"
 #endif /* TPFoundation_h */
