@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 初始化方法
 /// @param identity 标识符
-- (nullable instancetype)initWithId:(id<NSCopying>)identity;
+- (nullable instancetype)initWithId:(nullable id <NSCopying>)identity;
 
 /// 根据标识符 查找对象
 /// @param identity 标识符

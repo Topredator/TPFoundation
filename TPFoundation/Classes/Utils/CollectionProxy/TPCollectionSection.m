@@ -10,11 +10,11 @@
 
 @implementation TPCollectionSection
 + (instancetype)section {
-    return [[self alloc] initWithID:nil];
+    return [[self alloc] initWithId:nil];
 }
 
 + (instancetype)sectionWithID:(id<NSCopying>)identity {
-    return [[self alloc] initWithID:identity];
+    return [[self alloc] initWithId:identity];
 }
 
 - (void)setHeaderClass:(Class)headerClass {

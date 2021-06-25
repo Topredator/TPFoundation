@@ -9,7 +9,7 @@
 
 @implementation TPTableCellModel
 + (instancetype)modelWithcellClass:(Class)cellClass reuseId:(NSString *)reuseId type:(TPTableCellRegistrationType)type {
-    TPTableCellModel *model = [[self alloc] new];
+    TPTableCellModel *model = [[self alloc] init];
     [model setCellClass:cellClass reuseId:reuseId type:type];
     return model;
 }
@@ -30,7 +30,7 @@
 + (instancetype)modelWithHeadFootClass:(Class)headFootClass
                                reuseId:(NSString *)reuseId
                                   type:(TPTableCellRegistrationType)type {
-    TPTableCellModel *model = [[self alloc] new];
+    TPTableCellModel *model = [[self alloc] init];
     [model setHeadFootClass:headFootClass reuseId:reuseId type:type];
     return model;
 }
