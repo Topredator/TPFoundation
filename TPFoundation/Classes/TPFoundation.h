@@ -21,18 +21,10 @@
 #import "NSString+TPCalSize.h"
 #import "UIDevice+TPExtend.h"
 
-#import "UIViewController+TPPresentStyle.h"
-
 #import "NSMutableArray+TPSafe.h"
 #import "NSMutableDictionary+TPSafe.h"
-
-#import "UIView+TPExtend.h"
-#import "UIView+TPToImage.h"
 #import "UIApplication+TPExtend.h"
-
-#import "UIScrollView+TPExtend.h"
 // Utils
-#import "TPQRCode.h"
 #import "TPCommonUD.h"
 #import "TPThreadSafeArray.h"
 #import "TPThreadSafeDictionary.h"
@@ -61,6 +53,4 @@
 #import "TPGCDQueue.h"
 #import "TPGCDSemaphore.h"
 
-/// 截屏
-#import "TPScreenShot.h"
 #endif /* TPFoundation_h */

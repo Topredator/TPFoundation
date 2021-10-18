@@ -19,6 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)tp_base64StringFromText:(NSString *)text;
 /// base64解码
 + (NSString *)tp_textFromBase64String:(NSString *)base64;
+
+/// base64 编码
+- (NSString * _Nullable)tp_encodeBase64;
+/// base64 解码
+- (NSString * _Nullable)tp_decodeBase64;
 @end
 
 NS_ASSUME_NONNULL_END

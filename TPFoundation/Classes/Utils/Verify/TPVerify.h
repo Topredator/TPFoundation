@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)verifyIllegalCharacter:(NSString *)content;
 
 /// 验证身份证
-+ (BOOL)verifyIdentityCard:(NSString *)identityCard;
++ (BOOL)verifyIDCard:(NSString *)idCard;
 
 /// 验证是否有空字符
 + (BOOL)verifyHaveEmptyString:(NSString *)content;

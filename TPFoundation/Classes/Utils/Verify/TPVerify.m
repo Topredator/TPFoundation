@@ -29,11 +29,11 @@
     NSPredicate* emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", str];
     return ![emailTest evaluateWithObject:content];
 }
-+ (BOOL)verifyIdentityCard:(NSString *)identityCard {
-    if (identityCard.length) return NO;
++ (BOOL)verifyIDCard:(NSString *)idCard {
+    if (idCard.length) return NO;
     NSString *regex2 = @"^(\\d{14}|\\d{17})(\\d|[xX])$";
     NSPredicate *identityCardPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex2];
-    return [identityCardPredicate evaluateWithObject:identityCard];
+    return [identityCardPredicate evaluateWithObject:idCard];
 }
 + (BOOL)verifyHaveEmptyString:(NSString *)content {
     NSRange range = [content rangeOfString:@" "];

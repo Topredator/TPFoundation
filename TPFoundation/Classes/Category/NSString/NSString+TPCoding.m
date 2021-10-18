@@ -136,4 +136,16 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
     }
     return [[NSString alloc] initWithBytesNoCopy:characters length:length encoding:NSASCIIStringEncoding freeWhenDone:YES];
 }
+
+- (NSString * _Nullable)tp_encodeBase64 {
+    if (!self || !self.length) return nil;
+    NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
+    return [NSString base64EncodedStringFrom:data];
+}
+/// base64 解码
+- (NSString * _Nullable)tp_decodeBase64 {
+    if (!self || !self.length) return nil;
+    NSData *data = [NSString dataWithBase64EncodedString:self];
+    return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+}
 @end

@@ -7,229 +7,201 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0047ACA685B3574CD346DE99D38E3B8C /* NSString+TPCalSize.h in Headers */ = {isa = PBXBuildFile; fileRef = E335C3CBCB95BBD4A6A55A742EEE95E2 /* NSString+TPCalSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0577EDA89FD0CE4D3741459620AE2BA5 /* UIViewController+TPPresentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A08EA463FD93B8A50D3DDBE5C70DCE4 /* UIViewController+TPPresentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0892B55DAC5A6A578BB3F5A0A1856FA1 /* TPGCDQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7B99E9ACFB8484B4C1F6BA96C4F605 /* TPGCDQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A3B1B613442C0BEC16F52447943030 /* TPCollectionSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5331DC939F0E5012A5E71E0172D4298B /* TPCollectionSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A6071528986108401D2771619EEB750 /* Pods-TPFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9933C15E14644039A045518AFA0B0B48 /* Pods-TPFoundation_Tests-dummy.m */; };
-		0A793CFE90389509F9D8C215DF42D8CA /* NSDate+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A37FB9F542F76CBD44EA6509017C1AB /* NSDate+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ECAB1AD0DC073805996E175B8B14997 /* TPThreadSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CBED04EC5105845AFF3387A9A07F30 /* TPThreadSafeDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EDC0E8FCD3949E1013505207F2D3A88 /* TPTableViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D182F9A044C7C43D20AEB8EB01C185D /* TPTableViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1ECBBE7717773B42768E27EF12EFB47F /* NSString+TPFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79108DB02CE8ADE935F24EA896C7AF78 /* NSString+TPFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EFB5B77A5CD01CE32E62A5435312FDC /* UITableView+TPCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFB9D618418DCEEB1044E0D50D95248 /* UITableView+TPCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21112C338FE37F91E84C76B1C75C033B /* NSString+TPDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563B8B76A192C6D9ED07B010579A3846 /* NSString+TPDate.m */; };
-		22D2597D84186D1184F9F37768FE6AA7 /* UITableView+TPCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B464C986154101F5297744C9FD291DB9 /* UITableView+TPCellModel.m */; };
+		0AA88BC380973080027E07916FD3B6F6 /* UICollectionViewCell+TPCollectionDataPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FAF5EDF9033A35B4F076234A00599D /* UICollectionViewCell+TPCollectionDataPrivate.m */; };
+		0D618BCA795F8D6D963C42AC1E73D165 /* NSMutableArray+TPSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AC102E295AD40385525A63D8594A14 /* NSMutableArray+TPSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFE734AF09B5119426A586A789E1E7A /* TPFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 61266C86C12BA90E7D6C1458219B4D59 /* TPFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2384D5D99254D7BF7F9475CD90EC7639 /* TPModelID.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F39F5B0D03EB1F881012DA10B56A35E /* TPModelID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		262528B79E7425C41BD5AE951EE879BD /* Pods-TPFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 347D747F2F707F9E6D6804C5C03DDED3 /* Pods-TPFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26CC8C2CCF086E5B80AF5AF08ED1AB8C /* TPFoundationMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF322D79A74CB3618537BBEC0528486 /* TPFoundationMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29FDB8D6BC053053A499207A75B2FF3A /* TPCollectionRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B602B3562FFACEF3F6B39E27AC5623 /* TPCollectionRow.m */; };
-		2F30AA8071F9A8AC89AE1E6E3DC6D48E /* TPTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8755231B97DC26A6E2F6CF2768681BFB /* TPTableSection.m */; };
-		31445EBAC609A3F4C75F9D898C0B10E5 /* NSDate+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7640856489F5A0BB29B0B71B93565671 /* NSDate+TPExtend.m */; };
-		358F39829DF5DD0D32FC5FC72F56543D /* TPTableCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C4B822836950B53F98AE5C61256E54 /* TPTableCellModel.m */; };
-		36FC29CAD89203BAE4EF0ADE8BD7F369 /* TPThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD2DB3538529931EB8FB6A0301DE864 /* TPThreadSafeDictionary.m */; };
-		37867708C0CF6B0FCE0470F3C455AC4D /* TPVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDB2A6C6A3CE9CF266E710B1637FCBD /* TPVerify.m */; };
-		3FEEF6CF322A9BD08ED0F8AC4330F4B9 /* UIImage+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEE67CD3446D6E4558988796810FC01 /* UIImage+TPExtend.m */; };
-		4641251F31AB680E664F943A60F60AA1 /* TPCollectionViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B65247A52848310EB5CD5D1B309B5550 /* TPCollectionViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46C0FFB33B8BC7888C0DDB0D6861BC1A /* TPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C639780436DCF507FF0BFCAAB57256BF /* TPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4909086BEF67041BD9926C415A90E1D6 /* NSObject+TPNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5FDF0CEF8A35AC3264F282F2677627 /* NSObject+TPNotify.m */; };
-		52D5D15DCD90530ED9A954BA0E08658B /* UIView+TPToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DC45065065732447F0CB733AF596F0 /* UIView+TPToImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		559580B5A34BB4A4DEC5890CC894AAAA /* TPTableCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8EC79BD895732AC3E36576E900A9A5 /* TPTableCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57ED0F23C3752EEA9C316C161D1B414C /* TPMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8113FF8B176B32037B17E9019F1E7DF4 /* TPMutableArray.m */; };
-		5A45942F45219AA7183DE301D56207FE /* TPMultipleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9DE402AC52127F5EEBA68DFDEF5ACA /* TPMultipleProxy.m */; };
-		5CD2C6FAE4F375FA463AC185AD7CFD32 /* UIView+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 9326C22D6D774CE8288A24BC75ED4A19 /* UIView+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CF0811458AFF4EF5525B86258EF4FAB /* TPScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 603A313691FB8D80BF45739C0E057CD8 /* TPScreenShot.m */; };
-		5D15727AD6DF0A49741E9C6A53AD5CB3 /* TPCollectionRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 43659BE87A21954190E95B50A02C4906 /* TPCollectionRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61FD08CFF88B4A34AF194F24324A4A1B /* TPGCDQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 161B392809EDDD0B5E2DAB36878CFD33 /* TPGCDQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DB2B023BE66AE6D1C6D000ED506EBFE /* NSDate+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC38E835A7905B531BCD77B392383D6 /* NSDate+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EA945743F8E6AA2DC56E5CF87D3A14E /* NSString+TPFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1936519F11100D4B37440BE19FB962 /* NSString+TPFilter.m */; };
+		2F599E6E038E4F726BA7D3E7280AB915 /* NSMutableDictionary+TPSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = B19BDE7F2849393FBC5FEB6A94229641 /* NSMutableDictionary+TPSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3324BBDF10477C548140B57490BBB0A1 /* TPFoundationMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 032085DFC250C17A444EE058FF9AA348 /* TPFoundationMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39901A0A00DCD008796D991A9F4DD1B5 /* UITableView+TPCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE789C991C639BC4CA368AB4788E0DC2 /* UITableView+TPCellModel.m */; };
+		41193D11B5E8E16CF71B53211C5C3C05 /* TPTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EFE2327EA658FD4D762367D3170EA9 /* TPTableSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4146ECA1E943B8E0ED50E68B6D659624 /* TPTableCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9FEEFC9853C84388528D09B53A53D1 /* TPTableCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		426869E75AB500C962D87610F3A22F03 /* NSObject+TPKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B84CE472C50AE79BB5E070678F5EBE /* NSObject+TPKVO.m */; };
+		43CEC9C09D9C91EE640C79509EB4FB0D /* TPWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7B14392877A3B15C4EAE683EAF2E1C /* TPWeakProxy.m */; };
+		475C43267EE7B2157FCE8504B62004C5 /* TPCollectionViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD432E89376F357D1EEBA687962639F /* TPCollectionViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485994864AADB87AE17A581ABE81860C /* NSDate+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E38D03D76B6FEA635AFC111490271 /* NSDate+TPExtend.m */; };
+		49933F2328E43A78C9502C24E475AF7B /* TPCommonUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DBFF2B81FCF7D53D4457A0B72C8E26 /* TPCommonUD.m */; };
+		545FBCB9C407D963984A52796B61909F /* TPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B049B3485DF115BF9DCA4668BD0B7A8 /* TPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		554E48D25B8EFF5F5AD7D6A8725264FC /* TPMultipleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E53B16AFA45066F4C896438A1FD6F /* TPMultipleProxy.m */; };
+		5AA9EFD4B6497E02B071B5490A00BB28 /* NSString+TPFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D55DEA3EED498C7E3F90928EFA0E2F8B /* NSString+TPFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF9DA37B3825C52C83AC5E918884DD4 /* TPCommonUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B54022ABC73DF25899C1F9F9E1F328 /* TPCommonUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E4BAF14BDF5CDFAD9EF8F6906ABFC7B /* TPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F3F3F1A06AB7C31690760E0066F3B /* TPFoundation-dummy.m */; };
 		650BD900D0ADF236F50A86DF20E1DEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		66AE5082462D09A56216C7789B63AC26 /* UICollectionViewCell+TPCollectionDataPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E6CCCBEC0C7F5A365B0AA75DE711E2 /* UICollectionViewCell+TPCollectionDataPrivate.m */; };
-		69091BC2981DF21A1D48AEFF90509E64 /* UIView+TPToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B1DB5B79E1FC9E9CEE84E2EA9285E9 /* UIView+TPToImage.m */; };
-		6BDF2017670E23438D71033A1784AD64 /* UIDevice+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 341F00CB9456894E5F5E44593EF0494E /* UIDevice+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D9B404F5C8CD3C523A79F51ED54F416 /* TPTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BD12FA25D97C201B0F926A3C9663AF /* TPTableSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7594F6236BB2CF90C97B060804C96D4F /* UIImage+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = C29D0D4561C40A5D1EC4350555B25CD8 /* UIImage+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75F7EA4F7863676CBAFDC2D10310E099 /* TPWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AEC64F5A73AAEEDFE762BF0D71AD3C /* TPWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		765B7CDEB82817F24DF9CE2CFF4F016D /* TPGCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EF255E281900A0D48C36CDBC54ABEFCC /* TPGCDQueue.m */; };
-		80D6FCE21B8509272E143E6A344FEEB0 /* TPCollectionSection.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FA5723CE44568D120A397A2D5AD4A0 /* TPCollectionSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82E573457297037CA635C7F43EAF41CD /* TPFoundationMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BB34B86489174FB3C06DD706B62E27 /* TPFoundationMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		854553ECF80B06032342768EB9D3D855 /* UIView+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0D72E89FC3DD6E1D29AF74DFE94D5 /* UIView+TPExtend.m */; };
-		885115E8F8199D8ECA665C7CA4F6C76A /* NSString+TPCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 54171D32A2AB77715F27DE217A87D8E3 /* NSString+TPCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93E9FBA74FB17AC225A1B32059C59F13 /* UIScrollView+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EB329D3A24FCF2D1A1BE6DCB297349 /* UIScrollView+TPExtend.m */; };
-		961FB589980A304E6FD09EC6653F6504 /* TPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C2CFE02830929B2BD37C22AE8F87A /* TPFoundation-dummy.m */; };
-		9759B8051AB718C713B58DAFD3CEF04B /* TPGCDSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B62E802AECF95BDC85B98DD095EA13 /* TPGCDSemaphore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		984E64D6ACCDB95A572A20B83DC920E6 /* UICollectionViewCell+TPCollectionDataPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F80A9101DA68E505B4AD79C43CC4221 /* UICollectionViewCell+TPCollectionDataPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C8031E0150FE1293706E774807EB5FD /* UIDevice+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = C0483B699983B0601BD8F2CCD5C1DE8B /* UIDevice+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766EC632A9386B44615317688562A909 /* TPGCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 74813D7ACA1020369A16E51B74BED94F /* TPGCDQueue.m */; };
+		76FCF921C9705CD8058F987B14E09E0C /* TPTableDataPrivateProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0EFD374EC8A4C42387F707F84E352 /* TPTableDataPrivateProtocol.m */; };
+		7AFF8890867375FA555A4AC23E952F5D /* TPTableCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D9F267CB132ABD8AE096DE58A759DD /* TPTableCellModel.m */; };
+		7B61B19B9F5B10D6E900EB91ADA81121 /* NSMutableArray+TPSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C5D939593F100CF113F8B726B70FC6 /* NSMutableArray+TPSafe.m */; };
+		7B9AD2931356A8836BC26E835381889E /* UICollectionViewCell+TPCollectionDataPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9472D95A730D88DFA8684A0517BA5C70 /* UICollectionViewCell+TPCollectionDataPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEB93BA73C95A2B952FFF5B703B056A /* TPDataProxyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45311CED2D8D38CAD1C4E90723CD4534 /* TPDataProxyProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA9C923C23CA04AFA6E825F49A3E3B2 /* NSObject+TPKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC83F5DE76BC1519412AC25BA817AE2 /* NSObject+TPKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837B2AB73F3F56E6827BF2B0B50A382A /* NSObject+TPNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF03E0AF6144B84C6E96840526F1DE3 /* NSObject+TPNotify.m */; };
+		873A1F99C8C3AEC8EB68222D61338E67 /* NSString+TPCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EA51FDBB71033E0257A8CFABDE5075 /* NSString+TPCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88AF15FEE36A0F9886DBA1ED23481CD5 /* UIApplication+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49A85ADAB36E57F27A1475F451B49B /* UIApplication+TPExtend.m */; };
+		8A7334635CAE05BCF02B4490747E50FF /* TPWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1771F438C7C8783CC50ABDB3F184D585 /* TPWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D44915B5D3600539AC6E08BB729DE85 /* TPGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = A795883CC101CD49AAEB8E7064E18248 /* TPGCDSemaphore.m */; };
+		8ED319314702265CA3E9867A63C81EC2 /* NSString+TPCalSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A4ECCC0454754F694899E62DAD071 /* NSString+TPCalSize.m */; };
+		9330A9DC04244F805190DCEA17BF2E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9723F402D94441D3DD9BE08C83FFBAD4 /* TPMultipleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CA74E416F0EB78D9804844A21CFDD9 /* TPMultipleProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99479B8D765767AF7B1283AC316B0DF9 /* Pods-TPFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F74B9E8ACA17A9FFFD2B22E493F2DD15 /* Pods-TPFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A000D16AC38AF0AE426715C770CCD7E3 /* NSString+TPCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DBE98F46FA50AE6FB42315569F718D /* NSString+TPCoding.m */; };
-		A6A089F58D3FAA366E1BCAEF40BEAA00 /* TPMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 58472F78EDFE12033BA471CEA2CDC473 /* TPMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7393381D8E705BE6A05BA0A051AB107 /* TPCommonUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A19BEB60EA719A3B4EFB145583596FF2 /* TPCommonUD.m */; };
-		A9B08617E1567DBC76E9BCB0BACD8DA4 /* TPThreadSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D324C3900B47BF444AC47891C8E5702 /* TPThreadSafeArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADD898CE55FCC6B8CFD5ED200ADC1AC4 /* TPQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FBD80ACB0054D31A554F768D268FB3 /* TPQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0171D8A370832FC53A8DABD49FC5E1A /* TPDataProxyProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FCCFCA22D07EF8C0726D7A65D9B79A /* TPDataProxyProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3E117AA7152F4B70D72522C3F7D1CA0 /* TPCollectionSection.m in Sources */ = {isa = PBXBuildFile; fileRef = D899028366F5E3881F8841D0B5B0C17B /* TPCollectionSection.m */; };
-		B47AFD50D49BAFF6FF5529CBFAC4403D /* TPScreenShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C21DDB529B2BA01FC9F9B8820C4B2A /* TPScreenShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B48877A98506CC7880E78FCE2E4C3BDD /* TPFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5136D8F4D90FCEF0BDD7F8F13CD3DB /* TPFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B76926BC688FBBA4DF2F155BB384BFC1 /* NSString+TPDate.h in Headers */ = {isa = PBXBuildFile; fileRef = B0576EA0101C3256D92078D56B000EF3 /* NSString+TPDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B78C380B89918FBE2B901BEAFD9346D0 /* NSMutableArray+TPSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CEA7C69C1378B3D72ADA748E0A2F49 /* NSMutableArray+TPSafe.m */; };
-		B90F107E6905BB3FB595D233EB297F5A /* TPGCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E899A8BB15B45B748CE589240C71DFE /* TPGCDSemaphore.m */; };
-		BA28F1E5CFD310DCF22C784987882E11 /* UIApplication+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = B863648970F704874EF10DCF0B817A67 /* UIApplication+TPExtend.m */; };
-		BB53F79E2A27254AECD91332A9DAE97D /* NSMutableDictionary+TPSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BCDC7B6BDA7187A3766A17499B1902 /* NSMutableDictionary+TPSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB5817197035029BEC5DFBE5321489C9 /* TPMultipleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 41873D9628191C89C653E21F7B05BA80 /* TPMultipleProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC6EAAC1628EB59A1D76C2EC1EEF7BE3 /* NSObject+TPKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 7727A8538D3F40BBAC6529FC350C6DBE /* NSObject+TPKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF3099CE1FC3008ACF55FA0B9D2B8A9B /* TPTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F18BE006811B0BB684FE43EEBA8DE76 /* TPTableRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C03EC09359923882E8A530505855B325 /* TPTableDataPrivateProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57AFB1E99060944AF77D17BC14CAB9 /* TPTableDataPrivateProtocol.m */; };
+		9C6899B36C54D995DD08CE5F9300C54D /* TPCollectionSection.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CF066A1699F14218590BB3BE916668 /* TPCollectionSection.m */; };
+		A041F482C9B687A8A22A79FD8A19FFF5 /* TPFoundationMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A058FBA82CDB1966A454EA3EFA06413 /* TPFoundationMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A33E6B18D2CBCFED1E7A4300B7250901 /* TPCollectionViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A052189ECAAD77C0B89147516F7CF3 /* TPCollectionViewProxy.m */; };
+		A59BA8126799AF4720C5DDD4DD92B771 /* TPModelID.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABB59C4D6561FA8E6F4A8EF47F4695 /* TPModelID.m */; };
+		A5A401588C53D0A584B431B2E1389966 /* TPVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E41CD3574F3411AED030CE0AA2103E1 /* TPVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61E6F17F08E2F28B2142A7FCB7415AC /* TPThreadSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A45ABB89483C61D539A96B8E6F4DB082 /* TPThreadSafeArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6937121150C9ED18704FC8106A3B844 /* TPGCDSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E9B2AE216635C6D098138F641E7418 /* TPGCDSemaphore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9631EFF2923A03117D992AF46E1C047 /* UIApplication+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 37C274805836EF13FB2333EBA892A99E /* UIApplication+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1288437D09EFFE68B9062B6C129F1E /* TPTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8FD2CA82D48121C011A5E3CBC6D3A1 /* TPTableRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB4B8B268F44F4B1D15E187EB232C529 /* TPTableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB5864121DCE2E4E0F56126B21BAC98 /* TPTableViewProxy.m */; };
+		B54F51D6CECC232D94A9DAE0BE3785D5 /* NSString+TPDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F254D0C61DE56D89D2B37878893EDA0 /* NSString+TPDate.m */; };
+		BB7EEC2CD499EC4E7E384B56F86D86CF /* TPTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7AEF6C8365E5208C91C4FE9FE16DDE /* TPTableSection.m */; };
+		BCAF6C1DE89D53AE3D5EC4FB74FD6773 /* NSString+TPCalSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0455566B65EBE540D689819CA20E3D /* NSString+TPCalSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBC5F871D8556D3854EDC3065B4BC04 /* TPFoundationMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DB72F639E3BB7BD4D99429C683356 /* TPFoundationMethodSwizzling.m */; };
+		C00CC8089268A7A9DC63C03305D8FA92 /* UITableView+TPCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9438F69FC21945961EF8F1363F53FF78 /* UITableView+TPCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C24173AB5D31DEB5326A57EB993EC43D /* Pods-TPFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559630293C363B6B0A8A59B7EC9AB42B /* Pods-TPFoundation_Example-dummy.m */; };
-		C53ABC53211F2933EB4486AA77EA35CA /* UIDevice+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A7FA15A0A0919957F3C3712D24A58B /* UIDevice+TPExtend.m */; };
-		C7BCE2A0B972A5C757A7C805221C8476 /* NSMutableDictionary+TPSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A36FBE6776B601940FA6CD1084352996 /* NSMutableDictionary+TPSafe.m */; };
-		C9A97B7EC66C1BE1F2D7B6A383F0FF83 /* TPTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E1B22FD0B0F761DE170A5F4A02425 /* TPTableRow.m */; };
-		CBC919127BFC0C60587FCAE6D41A7134 /* UIViewController+TPPresentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A02B97E025EB94BD63A51B3BF6DA5B6 /* UIViewController+TPPresentStyle.m */; };
-		CC3F86444E376F1D50492D31D470CD35 /* TPTableDataPrivateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18471505C5B40192974157CCBCA71BEE /* TPTableDataPrivateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD952749B3D71B99C268C5496EBE6201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CF8BA58CD2390327E027914D33F08A7F /* NSObject+TPKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 307DD8C7DBCFEA3A602FEC21E869C19E /* NSObject+TPKVO.m */; };
-		D33492B1362E40360573F6B0A3F0DBD2 /* TPModelID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E84D2F977EC4417904648869A3C452D /* TPModelID.m */; };
-		D5F1CAACA48CB4029A44CC1E3D09FA31 /* TPWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3BE8C9BCE277DA470F6158504212C /* TPWeakProxy.m */; };
-		D6010D6B6F0CA1A27C78556F2890DF08 /* NSMutableArray+TPSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = D929A6EE4D74ED913D17433D1D154887 /* NSMutableArray+TPSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D791962A56E8217F092325833A8AE243 /* TPFoundationMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF411A406352D2C14893643F40FB5DF /* TPFoundationMethodSwizzling.m */; };
-		DC349C6009B030AA5A2BB86795C79A69 /* UIApplication+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = D587BC1116F5D361AF6918FB98A056B4 /* UIApplication+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE32A7B43CD579609BE131D417F02043 /* TPCommonUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B05B566AE9F2CE49AFBAE58A0DFB45DC /* TPCommonUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E50283FD6BFF9C20F2DD50D9AE9D15F8 /* TPVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = AD652279B38AF531F75D21985AFD327C /* TPVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E53C4E555126348E962449282EA79459 /* TPModelID.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CE96DDDA224004E2BC11CC9C608C07 /* TPModelID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5B464F88102F16347AC948585F1318B /* TPQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = E3273334D84CDB851FFAC6801008CE33 /* TPQRCode.m */; };
+		C6744B3C5C3106ABBADF1BD5EF3FA303 /* TPCollectionRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 433626EB6817A296DF72C62A76FE4F7F /* TPCollectionRow.m */; };
+		C766B48F908DEBEB71B4DDDEEAF8101F /* NSObject+TPNotify.h in Headers */ = {isa = PBXBuildFile; fileRef = 247CD696C23C768753199AEBC3A0ACBE /* NSObject+TPNotify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85679A84D42184FA4583C1E8EAD911F /* NSMutableDictionary+TPSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9995BA52F65C8AA92CE78CB59559C1 /* NSMutableDictionary+TPSafe.m */; };
+		D1BB66E21D69F485AA140EAC9E676078 /* TPThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA18A18FA4CFD71150B8B8D17E8863 /* TPThreadSafeArray.m */; };
+		D3B5707C1A0F1A1B2DDD0B00ACAB064F /* TPTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E87B51B4CA3393CD35D0F4C061E65 /* TPTableRow.m */; };
+		D435D1FA0C0102994DE348BD05C8BB73 /* TPTableDataPrivateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1FAF8FD22D563855359AEE463D2DE7 /* TPTableDataPrivateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89BECFE4F20A82A5EA75002296A2E99 /* TPMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C16FD5E7313155C6C02417E213D0CE /* TPMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8BC550EAB21D250C9E972E92E1B2A8D /* TPMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8079A91E63AA9E756B0D6D29F012DB37 /* TPMutableArray.m */; };
+		E196F04D1F30566D54FF5D67DCC6D07E /* NSString+TPCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2933C22D9B533DFA59FBF3960F5780 /* NSString+TPCoding.m */; };
+		E3B67BC1B0C910079BFB6AEA4A256543 /* UIDevice+TPExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF8114394C5F2A54F2454E4FFB0911 /* UIDevice+TPExtend.m */; };
+		E5BCC523E9060AA389E207F5F13A4208 /* TPThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BF2EFBB50455E16EA3BE3F29F8980F /* TPThreadSafeDictionary.m */; };
+		EB24861944386D3E70B1AEFD1F1979A8 /* TPCollectionRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0227403DFE9EDADDE0633A3A5E4CD2 /* TPCollectionRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB91FF4C314ECED75FA22E33D73B995F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		ECD170C187B2171638A9CD76FFF68B59 /* NSObject+TPNotify.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2859BE9CAA94DFF300F76604486EE5 /* NSObject+TPNotify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F124481E96DE6C10E3633736EFD5ED7C /* TPCollectionViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75231E22D7C4DBE397E6C2D97C26043 /* TPCollectionViewProxy.m */; };
-		F6269A621E52958030CF8FC1C44A497B /* NSString+TPFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4093F61B75E8428C4F0F423842ED840A /* NSString+TPFilter.m */; };
-		F76D41870F90D68EDDA861A6C04AA134 /* NSString+TPCalSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226CC61D00B70B293C66E0975040DDD /* NSString+TPCalSize.m */; };
-		F79FF6A86D700B87F30F2F492345D61C /* UIScrollView+TPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C9C72C168F041C2EE54B4CD79EA3F1 /* UIScrollView+TPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC3070B299716E90DE359B31B8A342C8 /* TPTableViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA208C6F077C988ACAB475A0759CBB /* TPTableViewProxy.m */; };
-		FF85D21F786BD08FDA1D1C7C3BF6FFEB /* TPThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 488A7EB24E9E2444919062EE6CD8A14A /* TPThreadSafeArray.m */; };
+		EBFD0669A1C98A3FC08E6AFDB77C1AD5 /* TPThreadSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2B439D3CAC233953AA0F0BA4DBF85A /* TPThreadSafeDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC33CACFCFFADB7D69ED246A211FC413 /* TPVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = EB295F518683F471B0054E293B8811E8 /* TPVerify.m */; };
+		F5BB31C3D06BF5D27B08BBCB7D596740 /* TPTableViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0706B3B1E65DC2CD73C55F9272C31F3C /* TPTableViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8BE84BF38F954E803DCBDA829F401B /* NSString+TPDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D397E0B3465E62A0FA4ECC421BD75A /* NSString+TPDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		087339D85B1BCC8278050A18065CFB7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C93BAF2A5296CEEFFDBD791C67B4CAD5;
-			remoteInfo = TPFoundation;
-		};
-		A59679E62F59F00C2C860340DFB7F141 /* PBXContainerItemProxy */ = {
+		16337195EA2989D73124196E45D644E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 76055D6E0E7FFF681A45337FF59B01B7;
 			remoteInfo = "Pods-TPFoundation_Example";
 		};
+		C6F0C64494085CCA133C98986BEB1435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93BAF2A5296CEEFFDBD791C67B4CAD5;
+			remoteInfo = TPFoundation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E6CCCBEC0C7F5A365B0AA75DE711E2 /* UICollectionViewCell+TPCollectionDataPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TPCollectionDataPrivate.m"; sourceTree = "<group>"; };
-		07FCCFCA22D07EF8C0726D7A65D9B79A /* TPDataProxyProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPDataProxyProtocol.h; sourceTree = "<group>"; };
-		09EB329D3A24FCF2D1A1BE6DCB297349 /* UIScrollView+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPExtend.m"; sourceTree = "<group>"; };
-		09FBD80ACB0054D31A554F768D268FB3 /* TPQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPQRCode.h; sourceTree = "<group>"; };
+		032085DFC250C17A444EE058FF9AA348 /* TPFoundationMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPFoundationMethodSwizzling.h; path = TPFoundation/Classes/Base/TPFoundationMethodSwizzling.h; sourceTree = "<group>"; };
+		04DE33ACA6ADC42980860E794CBE1D02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0706B3B1E65DC2CD73C55F9272C31F3C /* TPTableViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableViewProxy.h; sourceTree = "<group>"; };
+		0AB5864121DCE2E4E0F56126B21BAC98 /* TPTableViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableViewProxy.m; sourceTree = "<group>"; };
 		0C65F29033F6737EE86002E3BE4BCE23 /* Pods-TPFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPFoundation_Example.modulemap"; sourceTree = "<group>"; };
-		0C8EC79BD895732AC3E36576E900A9A5 /* TPTableCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableCellModel.h; sourceTree = "<group>"; };
-		0D6E1B22FD0B0F761DE170A5F4A02425 /* TPTableRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableRow.m; sourceTree = "<group>"; };
-		161B392809EDDD0B5E2DAB36878CFD33 /* TPGCDQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPGCDQueue.h; sourceTree = "<group>"; };
-		18471505C5B40192974157CCBCA71BEE /* TPTableDataPrivateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableDataPrivateProtocol.h; sourceTree = "<group>"; };
-		18DC45065065732447F0CB733AF596F0 /* UIView+TPToImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TPToImage.h"; sourceTree = "<group>"; };
+		0C7AEF6C8365E5208C91C4FE9FE16DDE /* TPTableSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableSection.m; sourceTree = "<group>"; };
+		1771F438C7C8783CC50ABDB3F184D585 /* TPWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPWeakProxy.h; sourceTree = "<group>"; };
 		195D1FCA3F2FDC1BA6945F732EE8024D /* Pods_TPFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPFoundation_Tests.framework; path = "Pods-TPFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E5136D8F4D90FCEF0BDD7F8F13CD3DB /* TPFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPFoundation.h; path = TPFoundation/Classes/TPFoundation.h; sourceTree = "<group>"; };
 		1FEE65404EA25FDA8D25368902B8B6BB /* Pods-TPFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		21CEA7C69C1378B3D72ADA748E0A2F49 /* NSMutableArray+TPSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TPSafe.m"; sourceTree = "<group>"; };
-		22DBE98F46FA50AE6FB42315569F718D /* NSString+TPCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPCoding.m"; sourceTree = "<group>"; };
+		247CD696C23C768753199AEBC3A0ACBE /* NSObject+TPNotify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TPNotify.h"; sourceTree = "<group>"; };
+		24EA51FDBB71033E0257A8CFABDE5075 /* NSString+TPCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPCoding.h"; sourceTree = "<group>"; };
 		25707FAC9C645A7570315E07280F1E51 /* Pods_TPFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPFoundation_Example.framework; path = "Pods-TPFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		269100C685EB02F2AA2E7196E6062FD9 /* TPFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPFoundation.release.xcconfig; sourceTree = "<group>"; };
-		29CE96DDDA224004E2BC11CC9C608C07 /* TPModelID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPModelID.h; path = TPFoundation/Classes/Base/TPModelID.h; sourceTree = "<group>"; };
-		2B57AFB1E99060944AF77D17BC14CAB9 /* TPTableDataPrivateProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableDataPrivateProtocol.m; sourceTree = "<group>"; };
-		2C3C2CFE02830929B2BD37C22AE8F87A /* TPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPFoundation-dummy.m"; sourceTree = "<group>"; };
-		2F18BE006811B0BB684FE43EEBA8DE76 /* TPTableRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableRow.h; sourceTree = "<group>"; };
-		307DD8C7DBCFEA3A602FEC21E869C19E /* NSObject+TPKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TPKVO.m"; sourceTree = "<group>"; };
-		32FA208C6F077C988ACAB475A0759CBB /* TPTableViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableViewProxy.m; sourceTree = "<group>"; };
-		341F00CB9456894E5F5E44593EF0494E /* UIDevice+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TPExtend.h"; sourceTree = "<group>"; };
+		310211FC0777F92B5038611C853359A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		347D747F2F707F9E6D6804C5C03DDED3 /* Pods-TPFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
-		34BCDC7B6BDA7187A3766A17499B1902 /* NSMutableDictionary+TPSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TPSafe.h"; sourceTree = "<group>"; };
-		38C21DDB529B2BA01FC9F9B8820C4B2A /* TPScreenShot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPScreenShot.h; sourceTree = "<group>"; };
-		3A08EA463FD93B8A50D3DDBE5C70DCE4 /* UIViewController+TPPresentStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TPPresentStyle.h"; sourceTree = "<group>"; };
-		3D2859BE9CAA94DFF300F76604486EE5 /* NSObject+TPNotify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TPNotify.h"; sourceTree = "<group>"; };
-		3D324C3900B47BF444AC47891C8E5702 /* TPThreadSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPThreadSafeArray.h; sourceTree = "<group>"; };
-		4093F61B75E8428C4F0F423842ED840A /* NSString+TPFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPFilter.m"; sourceTree = "<group>"; };
+		37C274805836EF13FB2333EBA892A99E /* UIApplication+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TPExtend.h"; sourceTree = "<group>"; };
+		3F254D0C61DE56D89D2B37878893EDA0 /* NSString+TPDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPDate.m"; sourceTree = "<group>"; };
 		417E730AAD2A010F7C19F2524A25B2D5 /* Pods-TPFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		41873D9628191C89C653E21F7B05BA80 /* TPMultipleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPMultipleProxy.h; sourceTree = "<group>"; };
-		4226CC61D00B70B293C66E0975040DDD /* NSString+TPCalSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPCalSize.m"; sourceTree = "<group>"; };
-		43659BE87A21954190E95B50A02C4906 /* TPCollectionRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCollectionRow.h; sourceTree = "<group>"; };
+		433626EB6817A296DF72C62A76FE4F7F /* TPCollectionRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCollectionRow.m; sourceTree = "<group>"; };
+		44B84CE472C50AE79BB5E070678F5EBE /* NSObject+TPKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TPKVO.m"; sourceTree = "<group>"; };
 		451F2A71BB4D239A64FFC7AB4B21DD2F /* Pods-TPFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		488A7EB24E9E2444919062EE6CD8A14A /* TPThreadSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPThreadSafeArray.m; sourceTree = "<group>"; };
+		45311CED2D8D38CAD1C4E90723CD4534 /* TPDataProxyProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPDataProxyProtocol.h; sourceTree = "<group>"; };
 		4AB605CF52393DDAC979EFB7E7071847 /* Pods-TPFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4AC3BE8C9BCE277DA470F6158504212C /* TPWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPWeakProxy.m; sourceTree = "<group>"; };
-		4D182F9A044C7C43D20AEB8EB01C185D /* TPTableViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableViewProxy.h; sourceTree = "<group>"; };
-		52BB34B86489174FB3C06DD706B62E27 /* TPFoundationMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPFoundationMethodSwizzling.h; path = TPFoundation/Classes/Base/TPFoundationMethodSwizzling.h; sourceTree = "<group>"; };
-		54171D32A2AB77715F27DE217A87D8E3 /* NSString+TPCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPCoding.h"; sourceTree = "<group>"; };
+		4C0455566B65EBE540D689819CA20E3D /* NSString+TPCalSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPCalSize.h"; sourceTree = "<group>"; };
+		5331DC939F0E5012A5E71E0172D4298B /* TPCollectionSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCollectionSection.h; sourceTree = "<group>"; };
+		54E9B2AE216635C6D098138F641E7418 /* TPGCDSemaphore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPGCDSemaphore.h; sourceTree = "<group>"; };
 		559630293C363B6B0A8A59B7EC9AB42B /* Pods-TPFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPFoundation_Example-dummy.m"; sourceTree = "<group>"; };
-		563B8B76A192C6D9ED07B010579A3846 /* NSString+TPDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPDate.m"; sourceTree = "<group>"; };
-		58472F78EDFE12033BA471CEA2CDC473 /* TPMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMutableArray.h; path = TPFoundation/Classes/Base/TPMutableArray.h; sourceTree = "<group>"; };
-		5A37FB9F542F76CBD44EA6509017C1AB /* NSDate+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+TPExtend.h"; sourceTree = "<group>"; };
-		5BFB9D618418DCEEB1044E0D50D95248 /* UITableView+TPCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TPCellModel.h"; sourceTree = "<group>"; };
-		5EF322D79A74CB3618537BBEC0528486 /* TPFoundationMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPFoundationMacro.h; path = TPFoundation/Classes/Base/TPFoundationMacro.h; sourceTree = "<group>"; };
-		603A313691FB8D80BF45739C0E057CD8 /* TPScreenShot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPScreenShot.m; sourceTree = "<group>"; };
-		6107DFC5DD9447016D0DDFD9A5973E41 /* TPFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TPFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		559E53B16AFA45066F4C896438A1FD6F /* TPMultipleProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPMultipleProxy.m; sourceTree = "<group>"; };
+		5D2933C22D9B533DFA59FBF3960F5780 /* NSString+TPCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPCoding.m"; sourceTree = "<group>"; };
+		5D9995BA52F65C8AA92CE78CB59559C1 /* NSMutableDictionary+TPSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TPSafe.m"; sourceTree = "<group>"; };
+		5F39F5B0D03EB1F881012DA10B56A35E /* TPModelID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPModelID.h; path = TPFoundation/Classes/Base/TPModelID.h; sourceTree = "<group>"; };
+		60CA74E416F0EB78D9804844A21CFDD9 /* TPMultipleProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPMultipleProxy.h; sourceTree = "<group>"; };
+		61266C86C12BA90E7D6C1458219B4D59 /* TPFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPFoundation.h; path = TPFoundation/Classes/TPFoundation.h; sourceTree = "<group>"; };
+		61BF8114394C5F2A54F2454E4FFB0911 /* UIDevice+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TPExtend.m"; sourceTree = "<group>"; };
 		65D480B2BBC37B278ED7C8992AA7AC01 /* TPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPFoundation.framework; path = TPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EEE67CD3446D6E4558988796810FC01 /* UIImage+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TPExtend.m"; sourceTree = "<group>"; };
-		6FC0D72E89FC3DD6E1D29AF74DFE94D5 /* UIView+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TPExtend.m"; sourceTree = "<group>"; };
+		65F0EFD374EC8A4C42387F707F84E352 /* TPTableDataPrivateProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableDataPrivateProtocol.m; sourceTree = "<group>"; };
+		67A052189ECAAD77C0B89147516F7CF3 /* TPCollectionViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCollectionViewProxy.m; sourceTree = "<group>"; };
+		67DBFF2B81FCF7D53D4457A0B72C8E26 /* TPCommonUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCommonUD.m; sourceTree = "<group>"; };
+		6AF70AF5D2781DDA0217D624268BD7B3 /* TPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPFoundation-Info.plist"; sourceTree = "<group>"; };
+		6F0227403DFE9EDADDE0633A3A5E4CD2 /* TPCollectionRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCollectionRow.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		737DADA139960E0E41F5870E7BF7D893 /* Pods-TPFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		74B62E802AECF95BDC85B98DD095EA13 /* TPGCDSemaphore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPGCDSemaphore.h; sourceTree = "<group>"; };
-		7640856489F5A0BB29B0B71B93565671 /* NSDate+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TPExtend.m"; sourceTree = "<group>"; };
-		7727A8538D3F40BBAC6529FC350C6DBE /* NSObject+TPKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TPKVO.h"; sourceTree = "<group>"; };
-		77B602B3562FFACEF3F6B39E27AC5623 /* TPCollectionRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCollectionRow.m; sourceTree = "<group>"; };
-		78CBED04EC5105845AFF3387A9A07F30 /* TPThreadSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPThreadSafeDictionary.h; sourceTree = "<group>"; };
-		79108DB02CE8ADE935F24EA896C7AF78 /* NSString+TPFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPFilter.h"; sourceTree = "<group>"; };
-		7AD2DB3538529931EB8FB6A0301DE864 /* TPThreadSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPThreadSafeDictionary.m; sourceTree = "<group>"; };
-		7E899A8BB15B45B748CE589240C71DFE /* TPGCDSemaphore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPGCDSemaphore.m; sourceTree = "<group>"; };
-		80B1DB5B79E1FC9E9CEE84E2EA9285E9 /* UIView+TPToImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+TPToImage.m"; sourceTree = "<group>"; };
-		8113FF8B176B32037B17E9019F1E7DF4 /* TPMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMutableArray.m; path = TPFoundation/Classes/Base/TPMutableArray.m; sourceTree = "<group>"; };
-		83E1AABF0E47532763DD9D647FC61DAE /* TPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPFoundation.modulemap; sourceTree = "<group>"; };
-		8755231B97DC26A6E2F6CF2768681BFB /* TPTableSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableSection.m; sourceTree = "<group>"; };
+		74813D7ACA1020369A16E51B74BED94F /* TPGCDQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPGCDQueue.m; sourceTree = "<group>"; };
+		7D9FEEFC9853C84388528D09B53A53D1 /* TPTableCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableCellModel.h; sourceTree = "<group>"; };
+		7E1936519F11100D4B37440BE19FB962 /* NSString+TPFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPFilter.m"; sourceTree = "<group>"; };
+		8079A91E63AA9E756B0D6D29F012DB37 /* TPMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMutableArray.m; path = TPFoundation/Classes/Base/TPMutableArray.m; sourceTree = "<group>"; };
+		80C5D939593F100CF113F8B726B70FC6 /* NSMutableArray+TPSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TPSafe.m"; sourceTree = "<group>"; };
+		813A4ECCC0454754F694899E62DAD071 /* NSString+TPCalSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TPCalSize.m"; sourceTree = "<group>"; };
 		89669EBDA33B9AD86DFDABE6616CEEFE /* Pods-TPFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8E84D2F977EC4417904648869A3C452D /* TPModelID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPModelID.m; path = TPFoundation/Classes/Base/TPModelID.m; sourceTree = "<group>"; };
-		8EFDA1181AC8E514CBB466ED4FFD7573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8FF411A406352D2C14893643F40FB5DF /* TPFoundationMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPFoundationMethodSwizzling.m; path = TPFoundation/Classes/Base/TPFoundationMethodSwizzling.m; sourceTree = "<group>"; };
-		91C4B822836950B53F98AE5C61256E54 /* TPTableCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableCellModel.m; sourceTree = "<group>"; };
-		92A7FA15A0A0919957F3C3712D24A58B /* UIDevice+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TPExtend.m"; sourceTree = "<group>"; };
-		9326C22D6D774CE8288A24BC75ED4A19 /* UIView+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+TPExtend.h"; sourceTree = "<group>"; };
-		96BD12FA25D97C201B0F926A3C9663AF /* TPTableSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableSection.h; sourceTree = "<group>"; };
+		8B049B3485DF115BF9DCA4668BD0B7A8 /* TPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		8B0F3F3F1A06AB7C31690760E0066F3B /* TPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPFoundation-dummy.m"; sourceTree = "<group>"; };
+		8BC83F5DE76BC1519412AC25BA817AE2 /* NSObject+TPKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TPKVO.h"; sourceTree = "<group>"; };
+		8D4E38D03D76B6FEA635AFC111490271 /* NSDate+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TPExtend.m"; sourceTree = "<group>"; };
+		8E41CD3574F3411AED030CE0AA2103E1 /* TPVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPVerify.h; sourceTree = "<group>"; };
+		9438F69FC21945961EF8F1363F53FF78 /* UITableView+TPCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+TPCellModel.h"; sourceTree = "<group>"; };
+		9472D95A730D88DFA8684A0517BA5C70 /* UICollectionViewCell+TPCollectionDataPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TPCollectionDataPrivate.h"; sourceTree = "<group>"; };
+		97D397E0B3465E62A0FA4ECC421BD75A /* NSString+TPDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPDate.h"; sourceTree = "<group>"; };
 		9933C15E14644039A045518AFA0B0B48 /* Pods-TPFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
-		9A02B97E025EB94BD63A51B3BF6DA5B6 /* UIViewController+TPPresentStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TPPresentStyle.m"; sourceTree = "<group>"; };
-		9C9DE402AC52127F5EEBA68DFDEF5ACA /* TPMultipleProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPMultipleProxy.m; sourceTree = "<group>"; };
+		9A058FBA82CDB1966A454EA3EFA06413 /* TPFoundationMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPFoundationMacro.h; path = TPFoundation/Classes/Base/TPFoundationMacro.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F80A9101DA68E505B4AD79C43CC4221 /* UICollectionViewCell+TPCollectionDataPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TPCollectionDataPrivate.h"; sourceTree = "<group>"; };
-		A19BEB60EA719A3B4EFB145583596FF2 /* TPCommonUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCommonUD.m; sourceTree = "<group>"; };
-		A36FBE6776B601940FA6CD1084352996 /* NSMutableDictionary+TPSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+TPSafe.m"; sourceTree = "<group>"; };
-		ABDB2A6C6A3CE9CF266E710B1637FCBD /* TPVerify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPVerify.m; sourceTree = "<group>"; };
+		A0CF066A1699F14218590BB3BE916668 /* TPCollectionSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCollectionSection.m; sourceTree = "<group>"; };
+		A0EFE2327EA658FD4D762367D3170EA9 /* TPTableSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableSection.h; sourceTree = "<group>"; };
+		A45ABB89483C61D539A96B8E6F4DB082 /* TPThreadSafeArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPThreadSafeArray.h; sourceTree = "<group>"; };
+		A795883CC101CD49AAEB8E7064E18248 /* TPGCDSemaphore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPGCDSemaphore.m; sourceTree = "<group>"; };
+		A8B54022ABC73DF25899C1F9F9E1F328 /* TPCommonUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCommonUD.h; sourceTree = "<group>"; };
+		A8FAF5EDF9033A35B4F076234A00599D /* UICollectionViewCell+TPCollectionDataPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TPCollectionDataPrivate.m"; sourceTree = "<group>"; };
 		ABFC178BDFFD8DA032DA6188B67F158B /* Pods-TPFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AD652279B38AF531F75D21985AFD327C /* TPVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPVerify.h; sourceTree = "<group>"; };
-		B0576EA0101C3256D92078D56B000EF3 /* NSString+TPDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPDate.h"; sourceTree = "<group>"; };
-		B05B566AE9F2CE49AFBAE58A0DFB45DC /* TPCommonUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCommonUD.h; sourceTree = "<group>"; };
+		AD8FD2CA82D48121C011A5E3CBC6D3A1 /* TPTableRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableRow.h; sourceTree = "<group>"; };
+		AEC38E835A7905B531BCD77B392383D6 /* NSDate+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+TPExtend.h"; sourceTree = "<group>"; };
 		B1319C8AF70BC8E6005D81272C60BC9C /* Pods-TPFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B464C986154101F5297744C9FD291DB9 /* UITableView+TPCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TPCellModel.m"; sourceTree = "<group>"; };
-		B65247A52848310EB5CD5D1B309B5550 /* TPCollectionViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCollectionViewProxy.h; sourceTree = "<group>"; };
-		B863648970F704874EF10DCF0B817A67 /* UIApplication+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TPExtend.m"; sourceTree = "<group>"; };
-		C29D0D4561C40A5D1EC4350555B25CD8 /* UIImage+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+TPExtend.h"; sourceTree = "<group>"; };
+		B19BDE7F2849393FBC5FEB6A94229641 /* NSMutableDictionary+TPSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+TPSafe.h"; sourceTree = "<group>"; };
+		B4AB69FCA4B0B420850DE757B6016E2A /* TPFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		BA2B439D3CAC233953AA0F0BA4DBF85A /* TPThreadSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPThreadSafeDictionary.h; sourceTree = "<group>"; };
+		BBF03E0AF6144B84C6E96840526F1DE3 /* NSObject+TPNotify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TPNotify.m"; sourceTree = "<group>"; };
+		BFBA18A18FA4CFD71150B8B8D17E8863 /* TPThreadSafeArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPThreadSafeArray.m; sourceTree = "<group>"; };
+		C0483B699983B0601BD8F2CCD5C1DE8B /* UIDevice+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TPExtend.h"; sourceTree = "<group>"; };
+		C1ABB59C4D6561FA8E6F4A8EF47F4695 /* TPModelID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPModelID.m; path = TPFoundation/Classes/Base/TPModelID.m; sourceTree = "<group>"; };
+		C2AC102E295AD40385525A63D8594A14 /* NSMutableArray+TPSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TPSafe.h"; sourceTree = "<group>"; };
 		C5B40E768FFB579262B007786A7629F0 /* Pods-TPFoundation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPFoundation_Example-Info.plist"; sourceTree = "<group>"; };
-		C639780436DCF507FF0BFCAAB57256BF /* TPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPFoundation-umbrella.h"; sourceTree = "<group>"; };
-		C6B21B29724F8CA11D443C6441FCF099 /* TPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPFoundation-Info.plist"; sourceTree = "<group>"; };
+		CC1FAF8FD22D563855359AEE463D2DE7 /* TPTableDataPrivateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPTableDataPrivateProtocol.h; sourceTree = "<group>"; };
 		CC24B658DE3D0A0ED39ABAFB2DAC3B7A /* Pods-TPFoundation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPFoundation_Tests-Info.plist"; sourceTree = "<group>"; };
 		CC2880780EB75F0A9173A1A1E4192B2F /* Pods-TPFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPFoundation_Tests.modulemap"; sourceTree = "<group>"; };
-		CCEABE7E3CC0B50860DFB6F0A1AF19EA /* TPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPFoundation-prefix.pch"; sourceTree = "<group>"; };
-		CE5FDF0CEF8A35AC3264F282F2677627 /* NSObject+TPNotify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TPNotify.m"; sourceTree = "<group>"; };
+		CC8DF77CD7E2678862E366555B7BFC1C /* TPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPFoundation.modulemap; sourceTree = "<group>"; };
+		CF7B99E9ACFB8484B4C1F6BA96C4F605 /* TPGCDQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPGCDQueue.h; sourceTree = "<group>"; };
 		D165DBD03DFB8BC688A4727330E43C8F /* Pods-TPFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D3C9C72C168F041C2EE54B4CD79EA3F1 /* UIScrollView+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPExtend.h"; sourceTree = "<group>"; };
-		D587BC1116F5D361AF6918FB98A056B4 /* UIApplication+TPExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TPExtend.h"; sourceTree = "<group>"; };
-		D6AEC64F5A73AAEEDFE762BF0D71AD3C /* TPWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPWeakProxy.h; sourceTree = "<group>"; };
-		D6FA5723CE44568D120A397A2D5AD4A0 /* TPCollectionSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCollectionSection.h; sourceTree = "<group>"; };
-		D899028366F5E3881F8841D0B5B0C17B /* TPCollectionSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCollectionSection.m; sourceTree = "<group>"; };
-		D8A59B2B50B0259F19A22E11080D23AA /* TPFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPFoundation.debug.xcconfig; sourceTree = "<group>"; };
-		D929A6EE4D74ED913D17433D1D154887 /* NSMutableArray+TPSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TPSafe.h"; sourceTree = "<group>"; };
-		E3273334D84CDB851FFAC6801008CE33 /* TPQRCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPQRCode.m; sourceTree = "<group>"; };
-		E335C3CBCB95BBD4A6A55A742EEE95E2 /* NSString+TPCalSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPCalSize.h"; sourceTree = "<group>"; };
-		EF255E281900A0D48C36CDBC54ABEFCC /* TPGCDQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPGCDQueue.m; sourceTree = "<group>"; };
+		D2C16FD5E7313155C6C02417E213D0CE /* TPMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMutableArray.h; path = TPFoundation/Classes/Base/TPMutableArray.h; sourceTree = "<group>"; };
+		D55DEA3EED498C7E3F90928EFA0E2F8B /* NSString+TPFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TPFilter.h"; sourceTree = "<group>"; };
+		DA49A85ADAB36E57F27A1475F451B49B /* UIApplication+TPExtend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TPExtend.m"; sourceTree = "<group>"; };
+		DB7B14392877A3B15C4EAE683EAF2E1C /* TPWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPWeakProxy.m; sourceTree = "<group>"; };
+		DC6CD61A7440A4514290F821333B2D65 /* TPFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TPFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE789C991C639BC4CA368AB4788E0DC2 /* UITableView+TPCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TPCellModel.m"; sourceTree = "<group>"; };
+		E3BF2EFBB50455E16EA3BE3F29F8980F /* TPThreadSafeDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPThreadSafeDictionary.m; sourceTree = "<group>"; };
+		E6D9F267CB132ABD8AE096DE58A759DD /* TPTableCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableCellModel.m; sourceTree = "<group>"; };
+		E83F13B27B1777B07FA4A291EC609AA7 /* TPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		EB295F518683F471B0054E293B8811E8 /* TPVerify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPVerify.m; sourceTree = "<group>"; };
+		ED6D48B0C93460D06DD022BE3F6BE1F6 /* TPFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPFoundation.release.xcconfig; sourceTree = "<group>"; };
+		F26E87B51B4CA3393CD35D0F4C061E65 /* TPTableRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPTableRow.m; sourceTree = "<group>"; };
+		F59DB72F639E3BB7BD4D99429C683356 /* TPFoundationMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPFoundationMethodSwizzling.m; path = TPFoundation/Classes/Base/TPFoundationMethodSwizzling.m; sourceTree = "<group>"; };
 		F74B9E8ACA17A9FFFD2B22E493F2DD15 /* Pods-TPFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F75231E22D7C4DBE397E6C2D97C26043 /* TPCollectionViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPCollectionViewProxy.m; sourceTree = "<group>"; };
-		FF062EC93AEB344B78E39539FACB9579 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FBD432E89376F357D1EEBA687962639F /* TPCollectionViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPCollectionViewProxy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,39 +221,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60278691D551A1D838BF2245715D00C8 /* Frameworks */ = {
+		8EE6E07069B9F44C0FE2D702968DB32F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD952749B3D71B99C268C5496EBE6201 /* Foundation.framework in Frameworks */,
+				9330A9DC04244F805190DCEA17BF2E57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		133CD7657003CA47D879B7BE362E55C8 /* UIDevice */ = {
+		08ABE64B7E70D8F0524B4C70CF6B4CF7 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				341F00CB9456894E5F5E44593EF0494E /* UIDevice+TPExtend.h */,
-				92A7FA15A0A0919957F3C3712D24A58B /* UIDevice+TPExtend.m */,
+				55B5199CFB4864CA6C7B06815722BBC2 /* NSDate */,
+				BD78FE6C837408C6BAA5D0140B45B244 /* NSMutableArray */,
+				66FEB565A9EA2DE79A5966D576CA07DB /* NSMutableDictionary */,
+				9F8FB062A9111EE67FB4613BB903DC29 /* NSObject */,
+				ED828AB67027853068D08FC9D45D0982 /* NSString */,
+				9EC7ECFD7BF1DDE98A88EA6C77F8C41B /* UIApplication */,
+				8FF0C7C2C54E21A5404A9D98599F8935 /* UIDevice */,
 			);
-			name = UIDevice;
-			path = TPFoundation/Classes/Category/UIDevice;
+			name = Category;
 			sourceTree = "<group>";
 		};
-		1E7F89FAB9EC92A1593FA845B0B989D6 /* TPFoundation */ = {
+		0ECE117B728F44EA7E775C91CABBB683 /* ThreadSafeDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				1E5136D8F4D90FCEF0BDD7F8F13CD3DB /* TPFoundation.h */,
-				4B4D63088DD86016FA7289A9D7268866 /* Base */,
-				848B9BA87DE18CFB613566C16D396E9E /* Category */,
-				2521B2BF84416409B9B738F02DEA5C13 /* Pod */,
-				DC81AE11C9B549D0314A8E0865014283 /* Support Files */,
-				AF5797F2C340C346A7F995413AA798F2 /* Utils */,
+				BA2B439D3CAC233953AA0F0BA4DBF85A /* TPThreadSafeDictionary.h */,
+				E3BF2EFBB50455E16EA3BE3F29F8980F /* TPThreadSafeDictionary.m */,
 			);
-			name = TPFoundation;
-			path = ../..;
+			name = ThreadSafeDictionary;
+			path = TPFoundation/Classes/Utils/ThreadSafeDictionary;
 			sourceTree = "<group>";
 		};
 		2147F43934ADF0843AB1E99A09723E25 /* Pods-TPFoundation_Example */ = {
@@ -311,14 +283,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2521B2BF84416409B9B738F02DEA5C13 /* Pod */ = {
+		25F72693E073E42FB6CFF34747016094 /* TPFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				FF062EC93AEB344B78E39539FACB9579 /* LICENSE */,
-				8EFDA1181AC8E514CBB466ED4FFD7573 /* README.md */,
-				6107DFC5DD9447016D0DDFD9A5973E41 /* TPFoundation.podspec */,
+				61266C86C12BA90E7D6C1458219B4D59 /* TPFoundation.h */,
+				8311CB3F1CC95A6C29C65A9AE0C62E1C /* Base */,
+				08ABE64B7E70D8F0524B4C70CF6B4CF7 /* Category */,
+				80347E20CEA51C34053CC2577B255F37 /* Pod */,
+				E01E0A31B6AE4841E746F7846EE1DB65 /* Support Files */,
+				F09B834802E4C7A81D5F729FB91C08F0 /* Utils */,
 			);
-			name = Pod;
+			name = TPFoundation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2B659B5234E39D0BCCED902969765739 /* Targets Support Files */ = {
@@ -330,52 +306,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BBB3E25959FA5C22D21B37556B8B56F /* NSDate */ = {
+		55B5199CFB4864CA6C7B06815722BBC2 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				5A37FB9F542F76CBD44EA6509017C1AB /* NSDate+TPExtend.h */,
-				7640856489F5A0BB29B0B71B93565671 /* NSDate+TPExtend.m */,
+				AEC38E835A7905B531BCD77B392383D6 /* NSDate+TPExtend.h */,
+				8D4E38D03D76B6FEA635AFC111490271 /* NSDate+TPExtend.m */,
 			);
 			name = NSDate;
 			path = TPFoundation/Classes/Category/NSDate;
-			sourceTree = "<group>";
-		};
-		2E752C772A10A2957B06A030D0E2D94F /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				9326C22D6D774CE8288A24BC75ED4A19 /* UIView+TPExtend.h */,
-				6FC0D72E89FC3DD6E1D29AF74DFE94D5 /* UIView+TPExtend.m */,
-				18DC45065065732447F0CB733AF596F0 /* UIView+TPToImage.h */,
-				80B1DB5B79E1FC9E9CEE84E2EA9285E9 /* UIView+TPToImage.m */,
-			);
-			name = UIView;
-			path = TPFoundation/Classes/Category/UIView;
-			sourceTree = "<group>";
-		};
-		4222F0451B30E61C03B335811386C832 /* WeakProxy */ = {
-			isa = PBXGroup;
-			children = (
-				41873D9628191C89C653E21F7B05BA80 /* TPMultipleProxy.h */,
-				9C9DE402AC52127F5EEBA68DFDEF5ACA /* TPMultipleProxy.m */,
-				D6AEC64F5A73AAEEDFE762BF0D71AD3C /* TPWeakProxy.h */,
-				4AC3BE8C9BCE277DA470F6158504212C /* TPWeakProxy.m */,
-			);
-			name = WeakProxy;
-			path = TPFoundation/Classes/Utils/WeakProxy;
-			sourceTree = "<group>";
-		};
-		4B4D63088DD86016FA7289A9D7268866 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				5EF322D79A74CB3618537BBEC0528486 /* TPFoundationMacro.h */,
-				52BB34B86489174FB3C06DD706B62E27 /* TPFoundationMethodSwizzling.h */,
-				8FF411A406352D2C14893643F40FB5DF /* TPFoundationMethodSwizzling.m */,
-				29CE96DDDA224004E2BC11CC9C608C07 /* TPModelID.h */,
-				8E84D2F977EC4417904648869A3C452D /* TPModelID.m */,
-				58472F78EDFE12033BA471CEA2CDC473 /* TPMutableArray.h */,
-				8113FF8B176B32037B17E9019F1E7DF4 /* TPMutableArray.m */,
-			);
-			name = Base;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -386,102 +324,96 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		59D9A434DC603A7BA7911EBD51B9B00B /* UIApplication */ = {
+		66FEB565A9EA2DE79A5966D576CA07DB /* NSMutableDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				D587BC1116F5D361AF6918FB98A056B4 /* UIApplication+TPExtend.h */,
-				B863648970F704874EF10DCF0B817A67 /* UIApplication+TPExtend.m */,
-			);
-			name = UIApplication;
-			path = TPFoundation/Classes/Category/UIApplication;
-			sourceTree = "<group>";
-		};
-		5C57E39210E5D49568BA7DF45B0759B6 /* UIViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3A08EA463FD93B8A50D3DDBE5C70DCE4 /* UIViewController+TPPresentStyle.h */,
-				9A02B97E025EB94BD63A51B3BF6DA5B6 /* UIViewController+TPPresentStyle.m */,
-			);
-			name = UIViewController;
-			path = TPFoundation/Classes/Category/UIViewController;
-			sourceTree = "<group>";
-		};
-		6998158DE1BFED4F198F253014961606 /* NSMutableDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				34BCDC7B6BDA7187A3766A17499B1902 /* NSMutableDictionary+TPSafe.h */,
-				A36FBE6776B601940FA6CD1084352996 /* NSMutableDictionary+TPSafe.m */,
+				B19BDE7F2849393FBC5FEB6A94229641 /* NSMutableDictionary+TPSafe.h */,
+				5D9995BA52F65C8AA92CE78CB59559C1 /* NSMutableDictionary+TPSafe.m */,
 			);
 			name = NSMutableDictionary;
 			path = TPFoundation/Classes/Category/NSMutableDictionary;
 			sourceTree = "<group>";
 		};
-		826F8B5766D1CA36D640CA109A571262 /* QRCode */ = {
+		80347E20CEA51C34053CC2577B255F37 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				09FBD80ACB0054D31A554F768D268FB3 /* TPQRCode.h */,
-				E3273334D84CDB851FFAC6801008CE33 /* TPQRCode.m */,
+				310211FC0777F92B5038611C853359A0 /* LICENSE */,
+				04DE33ACA6ADC42980860E794CBE1D02 /* README.md */,
+				DC6CD61A7440A4514290F821333B2D65 /* TPFoundation.podspec */,
 			);
-			name = QRCode;
-			path = TPFoundation/Classes/Utils/QRCode;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		848B9BA87DE18CFB613566C16D396E9E /* Category */ = {
+		8311CB3F1CC95A6C29C65A9AE0C62E1C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2BBB3E25959FA5C22D21B37556B8B56F /* NSDate */,
-				DA9A635F49431313280DD81FF7FE7038 /* NSMutableArray */,
-				6998158DE1BFED4F198F253014961606 /* NSMutableDictionary */,
-				BB7C3892F5994C3F00BBD3AE48FB6411 /* NSObject */,
-				E0DBC465174C6F4845E446891DB4203A /* NSString */,
-				59D9A434DC603A7BA7911EBD51B9B00B /* UIApplication */,
-				133CD7657003CA47D879B7BE362E55C8 /* UIDevice */,
-				A27816BD38C85DE9BC4F1FB2C24AD666 /* UIImage */,
-				FD4BA6F10393ED6AB70D92664EDBC8BD /* UIScrollView */,
-				2E752C772A10A2957B06A030D0E2D94F /* UIView */,
-				5C57E39210E5D49568BA7DF45B0759B6 /* UIViewController */,
+				9A058FBA82CDB1966A454EA3EFA06413 /* TPFoundationMacro.h */,
+				032085DFC250C17A444EE058FF9AA348 /* TPFoundationMethodSwizzling.h */,
+				F59DB72F639E3BB7BD4D99429C683356 /* TPFoundationMethodSwizzling.m */,
+				5F39F5B0D03EB1F881012DA10B56A35E /* TPModelID.h */,
+				C1ABB59C4D6561FA8E6F4A8EF47F4695 /* TPModelID.m */,
+				D2C16FD5E7313155C6C02417E213D0CE /* TPMutableArray.h */,
+				8079A91E63AA9E756B0D6D29F012DB37 /* TPMutableArray.m */,
 			);
-			name = Category;
+			name = Base;
 			sourceTree = "<group>";
 		};
-		9ED01FB0A993225702A8AC8A33BC213A /* GCD */ = {
+		8FF0C7C2C54E21A5404A9D98599F8935 /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
-				161B392809EDDD0B5E2DAB36878CFD33 /* TPGCDQueue.h */,
-				EF255E281900A0D48C36CDBC54ABEFCC /* TPGCDQueue.m */,
-				74B62E802AECF95BDC85B98DD095EA13 /* TPGCDSemaphore.h */,
-				7E899A8BB15B45B748CE589240C71DFE /* TPGCDSemaphore.m */,
+				C0483B699983B0601BD8F2CCD5C1DE8B /* UIDevice+TPExtend.h */,
+				61BF8114394C5F2A54F2454E4FFB0911 /* UIDevice+TPExtend.m */,
 			);
-			name = GCD;
-			path = TPFoundation/Classes/Utils/GCD;
+			name = UIDevice;
+			path = TPFoundation/Classes/Category/UIDevice;
 			sourceTree = "<group>";
 		};
-		A27816BD38C85DE9BC4F1FB2C24AD666 /* UIImage */ = {
+		9A14EF3906C5BB12EFCDA2F1B04CA78C /* Verify */ = {
 			isa = PBXGroup;
 			children = (
-				C29D0D4561C40A5D1EC4350555B25CD8 /* UIImage+TPExtend.h */,
-				6EEE67CD3446D6E4558988796810FC01 /* UIImage+TPExtend.m */,
+				8E41CD3574F3411AED030CE0AA2103E1 /* TPVerify.h */,
+				EB295F518683F471B0054E293B8811E8 /* TPVerify.m */,
 			);
-			name = UIImage;
-			path = TPFoundation/Classes/Category/UIImage;
+			name = Verify;
+			path = TPFoundation/Classes/Utils/Verify;
 			sourceTree = "<group>";
 		};
-		AF5797F2C340C346A7F995413AA798F2 /* Utils */ = {
+		9EC7ECFD7BF1DDE98A88EA6C77F8C41B /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
-				E96849F4589D00725CF13F4E895974AF /* CollectionProxy */,
-				B615270BFA43D3ADDD9A950155B39F2E /* CommonUD */,
-				9ED01FB0A993225702A8AC8A33BC213A /* GCD */,
-				826F8B5766D1CA36D640CA109A571262 /* QRCode */,
-				BDE7D1E818FB21D3E711CB4F5D706B47 /* RegisterCell */,
-				FE77777C2FC64092979A59EDA424E507 /* ScreenShots */,
-				B912C0483B365415A378C163AC46A8CF /* TableViewProxy */,
-				FFF5B8010229438B39CC24C812591AB4 /* ThreadSafeArray */,
-				D5E45F0E2EB4C2E2C8CF98547B1B65A2 /* ThreadSafeDictionary */,
-				DCE48A0BB530818A76976358D412A1B1 /* Verify */,
-				4222F0451B30E61C03B335811386C832 /* WeakProxy */,
+				37C274805836EF13FB2333EBA892A99E /* UIApplication+TPExtend.h */,
+				DA49A85ADAB36E57F27A1475F451B49B /* UIApplication+TPExtend.m */,
 			);
-			name = Utils;
+			name = UIApplication;
+			path = TPFoundation/Classes/Category/UIApplication;
+			sourceTree = "<group>";
+		};
+		9F8FB062A9111EE67FB4613BB903DC29 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				8BC83F5DE76BC1519412AC25BA817AE2 /* NSObject+TPKVO.h */,
+				44B84CE472C50AE79BB5E070678F5EBE /* NSObject+TPKVO.m */,
+				247CD696C23C768753199AEBC3A0ACBE /* NSObject+TPNotify.h */,
+				BBF03E0AF6144B84C6E96840526F1DE3 /* NSObject+TPNotify.m */,
+			);
+			name = NSObject;
+			path = TPFoundation/Classes/Category/NSObject;
+			sourceTree = "<group>";
+		};
+		A5916980ED0D6FB15587051B48FE52E3 /* CollectionProxy */ = {
+			isa = PBXGroup;
+			children = (
+				6F0227403DFE9EDADDE0633A3A5E4CD2 /* TPCollectionRow.h */,
+				433626EB6817A296DF72C62A76FE4F7F /* TPCollectionRow.m */,
+				5331DC939F0E5012A5E71E0172D4298B /* TPCollectionSection.h */,
+				A0CF066A1699F14218590BB3BE916668 /* TPCollectionSection.m */,
+				FBD432E89376F357D1EEBA687962639F /* TPCollectionViewProxy.h */,
+				67A052189ECAAD77C0B89147516F7CF3 /* TPCollectionViewProxy.m */,
+				9472D95A730D88DFA8684A0517BA5C70 /* UICollectionViewCell+TPCollectionDataPrivate.h */,
+				A8FAF5EDF9033A35B4F076234A00599D /* UICollectionViewCell+TPCollectionDataPrivate.m */,
+			);
+			name = CollectionProxy;
+			path = TPFoundation/Classes/Utils/CollectionProxy;
 			sourceTree = "<group>";
 		};
 		B0B64D57A166E886873B3DF3B82FF940 /* Pods-TPFoundation_Tests */ = {
@@ -500,63 +432,32 @@
 			path = "Target Support Files/Pods-TPFoundation_Tests";
 			sourceTree = "<group>";
 		};
-		B615270BFA43D3ADDD9A950155B39F2E /* CommonUD */ = {
+		BD78FE6C837408C6BAA5D0140B45B244 /* NSMutableArray */ = {
 			isa = PBXGroup;
 			children = (
-				B05B566AE9F2CE49AFBAE58A0DFB45DC /* TPCommonUD.h */,
-				A19BEB60EA719A3B4EFB145583596FF2 /* TPCommonUD.m */,
+				C2AC102E295AD40385525A63D8594A14 /* NSMutableArray+TPSafe.h */,
+				80C5D939593F100CF113F8B726B70FC6 /* NSMutableArray+TPSafe.m */,
 			);
-			name = CommonUD;
-			path = TPFoundation/Classes/Utils/CommonUD;
-			sourceTree = "<group>";
-		};
-		B912C0483B365415A378C163AC46A8CF /* TableViewProxy */ = {
-			isa = PBXGroup;
-			children = (
-				07FCCFCA22D07EF8C0726D7A65D9B79A /* TPDataProxyProtocol.h */,
-				18471505C5B40192974157CCBCA71BEE /* TPTableDataPrivateProtocol.h */,
-				2B57AFB1E99060944AF77D17BC14CAB9 /* TPTableDataPrivateProtocol.m */,
-				2F18BE006811B0BB684FE43EEBA8DE76 /* TPTableRow.h */,
-				0D6E1B22FD0B0F761DE170A5F4A02425 /* TPTableRow.m */,
-				96BD12FA25D97C201B0F926A3C9663AF /* TPTableSection.h */,
-				8755231B97DC26A6E2F6CF2768681BFB /* TPTableSection.m */,
-				4D182F9A044C7C43D20AEB8EB01C185D /* TPTableViewProxy.h */,
-				32FA208C6F077C988ACAB475A0759CBB /* TPTableViewProxy.m */,
-			);
-			name = TableViewProxy;
-			path = TPFoundation/Classes/Utils/TableViewProxy;
-			sourceTree = "<group>";
-		};
-		BB7C3892F5994C3F00BBD3AE48FB6411 /* NSObject */ = {
-			isa = PBXGroup;
-			children = (
-				7727A8538D3F40BBAC6529FC350C6DBE /* NSObject+TPKVO.h */,
-				307DD8C7DBCFEA3A602FEC21E869C19E /* NSObject+TPKVO.m */,
-				3D2859BE9CAA94DFF300F76604486EE5 /* NSObject+TPNotify.h */,
-				CE5FDF0CEF8A35AC3264F282F2677627 /* NSObject+TPNotify.m */,
-			);
-			name = NSObject;
-			path = TPFoundation/Classes/Category/NSObject;
-			sourceTree = "<group>";
-		};
-		BDE7D1E818FB21D3E711CB4F5D706B47 /* RegisterCell */ = {
-			isa = PBXGroup;
-			children = (
-				0C8EC79BD895732AC3E36576E900A9A5 /* TPTableCellModel.h */,
-				91C4B822836950B53F98AE5C61256E54 /* TPTableCellModel.m */,
-				5BFB9D618418DCEEB1044E0D50D95248 /* UITableView+TPCellModel.h */,
-				B464C986154101F5297744C9FD291DB9 /* UITableView+TPCellModel.m */,
-			);
-			name = RegisterCell;
-			path = TPFoundation/Classes/Utils/RegisterCell;
+			name = NSMutableArray;
+			path = TPFoundation/Classes/Category/NSMutableArray;
 			sourceTree = "<group>";
 		};
 		C7AC92089B520BB7DD424BF3640FDC75 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E7F89FAB9EC92A1593FA845B0B989D6 /* TPFoundation */,
+				25F72693E073E42FB6CFF34747016094 /* TPFoundation */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7DFEB52199F0FBB73C3C0F980538FFD /* CommonUD */ = {
+			isa = PBXGroup;
+			children = (
+				A8B54022ABC73DF25899C1F9F9E1F328 /* TPCommonUD.h */,
+				67DBFF2B81FCF7D53D4457A0B72C8E26 /* TPCommonUD.m */,
+			);
+			name = CommonUD;
+			path = TPFoundation/Classes/Utils/CommonUD;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -578,111 +479,114 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5E45F0E2EB4C2E2C8CF98547B1B65A2 /* ThreadSafeDictionary */ = {
+		E01E0A31B6AE4841E746F7846EE1DB65 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78CBED04EC5105845AFF3387A9A07F30 /* TPThreadSafeDictionary.h */,
-				7AD2DB3538529931EB8FB6A0301DE864 /* TPThreadSafeDictionary.m */,
-			);
-			name = ThreadSafeDictionary;
-			path = TPFoundation/Classes/Utils/ThreadSafeDictionary;
-			sourceTree = "<group>";
-		};
-		DA9A635F49431313280DD81FF7FE7038 /* NSMutableArray */ = {
-			isa = PBXGroup;
-			children = (
-				D929A6EE4D74ED913D17433D1D154887 /* NSMutableArray+TPSafe.h */,
-				21CEA7C69C1378B3D72ADA748E0A2F49 /* NSMutableArray+TPSafe.m */,
-			);
-			name = NSMutableArray;
-			path = TPFoundation/Classes/Category/NSMutableArray;
-			sourceTree = "<group>";
-		};
-		DC81AE11C9B549D0314A8E0865014283 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				83E1AABF0E47532763DD9D647FC61DAE /* TPFoundation.modulemap */,
-				2C3C2CFE02830929B2BD37C22AE8F87A /* TPFoundation-dummy.m */,
-				C6B21B29724F8CA11D443C6441FCF099 /* TPFoundation-Info.plist */,
-				CCEABE7E3CC0B50860DFB6F0A1AF19EA /* TPFoundation-prefix.pch */,
-				C639780436DCF507FF0BFCAAB57256BF /* TPFoundation-umbrella.h */,
-				D8A59B2B50B0259F19A22E11080D23AA /* TPFoundation.debug.xcconfig */,
-				269100C685EB02F2AA2E7196E6062FD9 /* TPFoundation.release.xcconfig */,
+				CC8DF77CD7E2678862E366555B7BFC1C /* TPFoundation.modulemap */,
+				8B0F3F3F1A06AB7C31690760E0066F3B /* TPFoundation-dummy.m */,
+				6AF70AF5D2781DDA0217D624268BD7B3 /* TPFoundation-Info.plist */,
+				E83F13B27B1777B07FA4A291EC609AA7 /* TPFoundation-prefix.pch */,
+				8B049B3485DF115BF9DCA4668BD0B7A8 /* TPFoundation-umbrella.h */,
+				B4AB69FCA4B0B420850DE757B6016E2A /* TPFoundation.debug.xcconfig */,
+				ED6D48B0C93460D06DD022BE3F6BE1F6 /* TPFoundation.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TPFoundation";
 			sourceTree = "<group>";
 		};
-		DCE48A0BB530818A76976358D412A1B1 /* Verify */ = {
+		E1102BAF270ADC7B941195CD4C81CED5 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
-				AD652279B38AF531F75D21985AFD327C /* TPVerify.h */,
-				ABDB2A6C6A3CE9CF266E710B1637FCBD /* TPVerify.m */,
+				CF7B99E9ACFB8484B4C1F6BA96C4F605 /* TPGCDQueue.h */,
+				74813D7ACA1020369A16E51B74BED94F /* TPGCDQueue.m */,
+				54E9B2AE216635C6D098138F641E7418 /* TPGCDSemaphore.h */,
+				A795883CC101CD49AAEB8E7064E18248 /* TPGCDSemaphore.m */,
 			);
-			name = Verify;
-			path = TPFoundation/Classes/Utils/Verify;
+			name = GCD;
+			path = TPFoundation/Classes/Utils/GCD;
 			sourceTree = "<group>";
 		};
-		E0DBC465174C6F4845E446891DB4203A /* NSString */ = {
+		E3BD4EC5A108F283E4BA0AFF078CAC92 /* WeakProxy */ = {
 			isa = PBXGroup;
 			children = (
-				E335C3CBCB95BBD4A6A55A742EEE95E2 /* NSString+TPCalSize.h */,
-				4226CC61D00B70B293C66E0975040DDD /* NSString+TPCalSize.m */,
-				54171D32A2AB77715F27DE217A87D8E3 /* NSString+TPCoding.h */,
-				22DBE98F46FA50AE6FB42315569F718D /* NSString+TPCoding.m */,
-				B0576EA0101C3256D92078D56B000EF3 /* NSString+TPDate.h */,
-				563B8B76A192C6D9ED07B010579A3846 /* NSString+TPDate.m */,
-				79108DB02CE8ADE935F24EA896C7AF78 /* NSString+TPFilter.h */,
-				4093F61B75E8428C4F0F423842ED840A /* NSString+TPFilter.m */,
+				60CA74E416F0EB78D9804844A21CFDD9 /* TPMultipleProxy.h */,
+				559E53B16AFA45066F4C896438A1FD6F /* TPMultipleProxy.m */,
+				1771F438C7C8783CC50ABDB3F184D585 /* TPWeakProxy.h */,
+				DB7B14392877A3B15C4EAE683EAF2E1C /* TPWeakProxy.m */,
+			);
+			name = WeakProxy;
+			path = TPFoundation/Classes/Utils/WeakProxy;
+			sourceTree = "<group>";
+		};
+		ED828AB67027853068D08FC9D45D0982 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				4C0455566B65EBE540D689819CA20E3D /* NSString+TPCalSize.h */,
+				813A4ECCC0454754F694899E62DAD071 /* NSString+TPCalSize.m */,
+				24EA51FDBB71033E0257A8CFABDE5075 /* NSString+TPCoding.h */,
+				5D2933C22D9B533DFA59FBF3960F5780 /* NSString+TPCoding.m */,
+				97D397E0B3465E62A0FA4ECC421BD75A /* NSString+TPDate.h */,
+				3F254D0C61DE56D89D2B37878893EDA0 /* NSString+TPDate.m */,
+				D55DEA3EED498C7E3F90928EFA0E2F8B /* NSString+TPFilter.h */,
+				7E1936519F11100D4B37440BE19FB962 /* NSString+TPFilter.m */,
 			);
 			name = NSString;
 			path = TPFoundation/Classes/Category/NSString;
 			sourceTree = "<group>";
 		};
-		E96849F4589D00725CF13F4E895974AF /* CollectionProxy */ = {
+		F09B834802E4C7A81D5F729FB91C08F0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				43659BE87A21954190E95B50A02C4906 /* TPCollectionRow.h */,
-				77B602B3562FFACEF3F6B39E27AC5623 /* TPCollectionRow.m */,
-				D6FA5723CE44568D120A397A2D5AD4A0 /* TPCollectionSection.h */,
-				D899028366F5E3881F8841D0B5B0C17B /* TPCollectionSection.m */,
-				B65247A52848310EB5CD5D1B309B5550 /* TPCollectionViewProxy.h */,
-				F75231E22D7C4DBE397E6C2D97C26043 /* TPCollectionViewProxy.m */,
-				9F80A9101DA68E505B4AD79C43CC4221 /* UICollectionViewCell+TPCollectionDataPrivate.h */,
-				00E6CCCBEC0C7F5A365B0AA75DE711E2 /* UICollectionViewCell+TPCollectionDataPrivate.m */,
+				A5916980ED0D6FB15587051B48FE52E3 /* CollectionProxy */,
+				C7DFEB52199F0FBB73C3C0F980538FFD /* CommonUD */,
+				E1102BAF270ADC7B941195CD4C81CED5 /* GCD */,
+				F8B2BFFEDA242A80B3799A74783E08FC /* RegisterCell */,
+				FF55D38D9CD73C231D4CC84F5FE22206 /* TableViewProxy */,
+				F4BD930EC672F01E6D889F2391DA214C /* ThreadSafeArray */,
+				0ECE117B728F44EA7E775C91CABBB683 /* ThreadSafeDictionary */,
+				9A14EF3906C5BB12EFCDA2F1B04CA78C /* Verify */,
+				E3BD4EC5A108F283E4BA0AFF078CAC92 /* WeakProxy */,
 			);
-			name = CollectionProxy;
-			path = TPFoundation/Classes/Utils/CollectionProxy;
+			name = Utils;
 			sourceTree = "<group>";
 		};
-		FD4BA6F10393ED6AB70D92664EDBC8BD /* UIScrollView */ = {
+		F4BD930EC672F01E6D889F2391DA214C /* ThreadSafeArray */ = {
 			isa = PBXGroup;
 			children = (
-				D3C9C72C168F041C2EE54B4CD79EA3F1 /* UIScrollView+TPExtend.h */,
-				09EB329D3A24FCF2D1A1BE6DCB297349 /* UIScrollView+TPExtend.m */,
-			);
-			name = UIScrollView;
-			path = TPFoundation/Classes/Category/UIScrollView;
-			sourceTree = "<group>";
-		};
-		FE77777C2FC64092979A59EDA424E507 /* ScreenShots */ = {
-			isa = PBXGroup;
-			children = (
-				38C21DDB529B2BA01FC9F9B8820C4B2A /* TPScreenShot.h */,
-				603A313691FB8D80BF45739C0E057CD8 /* TPScreenShot.m */,
-			);
-			name = ScreenShots;
-			path = TPFoundation/Classes/Utils/ScreenShots;
-			sourceTree = "<group>";
-		};
-		FFF5B8010229438B39CC24C812591AB4 /* ThreadSafeArray */ = {
-			isa = PBXGroup;
-			children = (
-				3D324C3900B47BF444AC47891C8E5702 /* TPThreadSafeArray.h */,
-				488A7EB24E9E2444919062EE6CD8A14A /* TPThreadSafeArray.m */,
+				A45ABB89483C61D539A96B8E6F4DB082 /* TPThreadSafeArray.h */,
+				BFBA18A18FA4CFD71150B8B8D17E8863 /* TPThreadSafeArray.m */,
 			);
 			name = ThreadSafeArray;
 			path = TPFoundation/Classes/Utils/ThreadSafeArray;
+			sourceTree = "<group>";
+		};
+		F8B2BFFEDA242A80B3799A74783E08FC /* RegisterCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D9FEEFC9853C84388528D09B53A53D1 /* TPTableCellModel.h */,
+				E6D9F267CB132ABD8AE096DE58A759DD /* TPTableCellModel.m */,
+				9438F69FC21945961EF8F1363F53FF78 /* UITableView+TPCellModel.h */,
+				DE789C991C639BC4CA368AB4788E0DC2 /* UITableView+TPCellModel.m */,
+			);
+			name = RegisterCell;
+			path = TPFoundation/Classes/Utils/RegisterCell;
+			sourceTree = "<group>";
+		};
+		FF55D38D9CD73C231D4CC84F5FE22206 /* TableViewProxy */ = {
+			isa = PBXGroup;
+			children = (
+				45311CED2D8D38CAD1C4E90723CD4534 /* TPDataProxyProtocol.h */,
+				CC1FAF8FD22D563855359AEE463D2DE7 /* TPTableDataPrivateProtocol.h */,
+				65F0EFD374EC8A4C42387F707F84E352 /* TPTableDataPrivateProtocol.m */,
+				AD8FD2CA82D48121C011A5E3CBC6D3A1 /* TPTableRow.h */,
+				F26E87B51B4CA3393CD35D0F4C061E65 /* TPTableRow.m */,
+				A0EFE2327EA658FD4D762367D3170EA9 /* TPTableSection.h */,
+				0C7AEF6C8365E5208C91C4FE9FE16DDE /* TPTableSection.m */,
+				0706B3B1E65DC2CD73C55F9272C31F3C /* TPTableViewProxy.h */,
+				0AB5864121DCE2E4E0F56126B21BAC98 /* TPTableViewProxy.m */,
+			);
+			name = TableViewProxy;
+			path = TPFoundation/Classes/Utils/TableViewProxy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -696,61 +600,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B1D50F8A5A7EA70E43DA448F2A5EC53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB2B023BE66AE6D1C6D000ED506EBFE /* NSDate+TPExtend.h in Headers */,
+				0D618BCA795F8D6D963C42AC1E73D165 /* NSMutableArray+TPSafe.h in Headers */,
+				2F599E6E038E4F726BA7D3E7280AB915 /* NSMutableDictionary+TPSafe.h in Headers */,
+				7FA9C923C23CA04AFA6E825F49A3E3B2 /* NSObject+TPKVO.h in Headers */,
+				C766B48F908DEBEB71B4DDDEEAF8101F /* NSObject+TPNotify.h in Headers */,
+				BCAF6C1DE89D53AE3D5EC4FB74FD6773 /* NSString+TPCalSize.h in Headers */,
+				873A1F99C8C3AEC8EB68222D61338E67 /* NSString+TPCoding.h in Headers */,
+				FD8BE84BF38F954E803DCBDA829F401B /* NSString+TPDate.h in Headers */,
+				5AA9EFD4B6497E02B071B5490A00BB28 /* NSString+TPFilter.h in Headers */,
+				EB24861944386D3E70B1AEFD1F1979A8 /* TPCollectionRow.h in Headers */,
+				08A3B1B613442C0BEC16F52447943030 /* TPCollectionSection.h in Headers */,
+				475C43267EE7B2157FCE8504B62004C5 /* TPCollectionViewProxy.h in Headers */,
+				5CF9DA37B3825C52C83AC5E918884DD4 /* TPCommonUD.h in Headers */,
+				7BEB93BA73C95A2B952FFF5B703B056A /* TPDataProxyProtocol.h in Headers */,
+				545FBCB9C407D963984A52796B61909F /* TPFoundation-umbrella.h in Headers */,
+				1AFE734AF09B5119426A586A789E1E7A /* TPFoundation.h in Headers */,
+				A041F482C9B687A8A22A79FD8A19FFF5 /* TPFoundationMacro.h in Headers */,
+				3324BBDF10477C548140B57490BBB0A1 /* TPFoundationMethodSwizzling.h in Headers */,
+				0892B55DAC5A6A578BB3F5A0A1856FA1 /* TPGCDQueue.h in Headers */,
+				A6937121150C9ED18704FC8106A3B844 /* TPGCDSemaphore.h in Headers */,
+				2384D5D99254D7BF7F9475CD90EC7639 /* TPModelID.h in Headers */,
+				9723F402D94441D3DD9BE08C83FFBAD4 /* TPMultipleProxy.h in Headers */,
+				D89BECFE4F20A82A5EA75002296A2E99 /* TPMutableArray.h in Headers */,
+				4146ECA1E943B8E0ED50E68B6D659624 /* TPTableCellModel.h in Headers */,
+				D435D1FA0C0102994DE348BD05C8BB73 /* TPTableDataPrivateProtocol.h in Headers */,
+				AA1288437D09EFFE68B9062B6C129F1E /* TPTableRow.h in Headers */,
+				41193D11B5E8E16CF71B53211C5C3C05 /* TPTableSection.h in Headers */,
+				F5BB31C3D06BF5D27B08BBCB7D596740 /* TPTableViewProxy.h in Headers */,
+				A61E6F17F08E2F28B2142A7FCB7415AC /* TPThreadSafeArray.h in Headers */,
+				EBFD0669A1C98A3FC08E6AFDB77C1AD5 /* TPThreadSafeDictionary.h in Headers */,
+				A5A401588C53D0A584B431B2E1389966 /* TPVerify.h in Headers */,
+				8A7334635CAE05BCF02B4490747E50FF /* TPWeakProxy.h in Headers */,
+				A9631EFF2923A03117D992AF46E1C047 /* UIApplication+TPExtend.h in Headers */,
+				7B9AD2931356A8836BC26E835381889E /* UICollectionViewCell+TPCollectionDataPrivate.h in Headers */,
+				6C8031E0150FE1293706E774807EB5FD /* UIDevice+TPExtend.h in Headers */,
+				C00CC8089268A7A9DC63C03305D8FA92 /* UITableView+TPCellModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C0BEF0279805E562F9F8C78B39DE431 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				262528B79E7425C41BD5AE951EE879BD /* Pods-TPFoundation_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C6DC7E789987E6D34E824B3B8B693BEB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A793CFE90389509F9D8C215DF42D8CA /* NSDate+TPExtend.h in Headers */,
-				D6010D6B6F0CA1A27C78556F2890DF08 /* NSMutableArray+TPSafe.h in Headers */,
-				BB53F79E2A27254AECD91332A9DAE97D /* NSMutableDictionary+TPSafe.h in Headers */,
-				BC6EAAC1628EB59A1D76C2EC1EEF7BE3 /* NSObject+TPKVO.h in Headers */,
-				ECD170C187B2171638A9CD76FFF68B59 /* NSObject+TPNotify.h in Headers */,
-				0047ACA685B3574CD346DE99D38E3B8C /* NSString+TPCalSize.h in Headers */,
-				885115E8F8199D8ECA665C7CA4F6C76A /* NSString+TPCoding.h in Headers */,
-				B76926BC688FBBA4DF2F155BB384BFC1 /* NSString+TPDate.h in Headers */,
-				1ECBBE7717773B42768E27EF12EFB47F /* NSString+TPFilter.h in Headers */,
-				5D15727AD6DF0A49741E9C6A53AD5CB3 /* TPCollectionRow.h in Headers */,
-				80D6FCE21B8509272E143E6A344FEEB0 /* TPCollectionSection.h in Headers */,
-				4641251F31AB680E664F943A60F60AA1 /* TPCollectionViewProxy.h in Headers */,
-				DE32A7B43CD579609BE131D417F02043 /* TPCommonUD.h in Headers */,
-				B0171D8A370832FC53A8DABD49FC5E1A /* TPDataProxyProtocol.h in Headers */,
-				46C0FFB33B8BC7888C0DDB0D6861BC1A /* TPFoundation-umbrella.h in Headers */,
-				B48877A98506CC7880E78FCE2E4C3BDD /* TPFoundation.h in Headers */,
-				26CC8C2CCF086E5B80AF5AF08ED1AB8C /* TPFoundationMacro.h in Headers */,
-				82E573457297037CA635C7F43EAF41CD /* TPFoundationMethodSwizzling.h in Headers */,
-				61FD08CFF88B4A34AF194F24324A4A1B /* TPGCDQueue.h in Headers */,
-				9759B8051AB718C713B58DAFD3CEF04B /* TPGCDSemaphore.h in Headers */,
-				E53C4E555126348E962449282EA79459 /* TPModelID.h in Headers */,
-				BB5817197035029BEC5DFBE5321489C9 /* TPMultipleProxy.h in Headers */,
-				A6A089F58D3FAA366E1BCAEF40BEAA00 /* TPMutableArray.h in Headers */,
-				ADD898CE55FCC6B8CFD5ED200ADC1AC4 /* TPQRCode.h in Headers */,
-				B47AFD50D49BAFF6FF5529CBFAC4403D /* TPScreenShot.h in Headers */,
-				559580B5A34BB4A4DEC5890CC894AAAA /* TPTableCellModel.h in Headers */,
-				CC3F86444E376F1D50492D31D470CD35 /* TPTableDataPrivateProtocol.h in Headers */,
-				BF3099CE1FC3008ACF55FA0B9D2B8A9B /* TPTableRow.h in Headers */,
-				6D9B404F5C8CD3C523A79F51ED54F416 /* TPTableSection.h in Headers */,
-				0EDC0E8FCD3949E1013505207F2D3A88 /* TPTableViewProxy.h in Headers */,
-				A9B08617E1567DBC76E9BCB0BACD8DA4 /* TPThreadSafeArray.h in Headers */,
-				0ECAB1AD0DC073805996E175B8B14997 /* TPThreadSafeDictionary.h in Headers */,
-				E50283FD6BFF9C20F2DD50D9AE9D15F8 /* TPVerify.h in Headers */,
-				75F7EA4F7863676CBAFDC2D10310E099 /* TPWeakProxy.h in Headers */,
-				DC349C6009B030AA5A2BB86795C79A69 /* UIApplication+TPExtend.h in Headers */,
-				984E64D6ACCDB95A572A20B83DC920E6 /* UICollectionViewCell+TPCollectionDataPrivate.h in Headers */,
-				6BDF2017670E23438D71033A1784AD64 /* UIDevice+TPExtend.h in Headers */,
-				7594F6236BB2CF90C97B060804C96D4F /* UIImage+TPExtend.h in Headers */,
-				F79FF6A86D700B87F30F2F492345D61C /* UIScrollView+TPExtend.h in Headers */,
-				1EFB5B77A5CD01CE32E62A5435312FDC /* UITableView+TPCellModel.h in Headers */,
-				5CD2C6FAE4F375FA463AC185AD7CFD32 /* UIView+TPExtend.h in Headers */,
-				52D5D15DCD90530ED9A954BA0E08658B /* UIView+TPToImage.h in Headers */,
-				0577EDA89FD0CE4D3741459620AE2BA5 /* UIViewController+TPPresentStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,7 +666,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3A561A2EE33549A2B56DB627E3E1CAA7 /* PBXTargetDependency */,
+				1EFB61832F9FAF78B94F17EB24AC25E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-TPFoundation_Example";
 			productName = "Pods-TPFoundation_Example";
@@ -788,7 +685,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A01C8F282F126C1B57FE5C4505A08AB /* PBXTargetDependency */,
+				47B4828192BFB4965BDEF4FE66E1C19F /* PBXTargetDependency */,
 			);
 			name = "Pods-TPFoundation_Tests";
 			productName = "Pods-TPFoundation_Tests";
@@ -797,12 +694,12 @@
 		};
 		C93BAF2A5296CEEFFDBD791C67B4CAD5 /* TPFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91BA781B98C50C2BB737A45975F8342C /* Build configuration list for PBXNativeTarget "TPFoundation" */;
+			buildConfigurationList = 400CBBE12A77C816A75B08B189B65842 /* Build configuration list for PBXNativeTarget "TPFoundation" */;
 			buildPhases = (
-				C6DC7E789987E6D34E824B3B8B693BEB /* Headers */,
-				2317E5395A75D85A46B4A21B913E338F /* Sources */,
-				60278691D551A1D838BF2245715D00C8 /* Frameworks */,
-				156BE2DE81B011C0E25DA753EB635B92 /* Resources */,
+				3B1D50F8A5A7EA70E43DA448F2A5EC53 /* Headers */,
+				97385FEC4438934B57CBF921F6107AB9 /* Sources */,
+				8EE6E07069B9F44C0FE2D702968DB32F /* Frameworks */,
+				8F3C0B0E7BC88945A4DA660FB79AF567 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -819,8 +716,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -843,7 +740,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		156BE2DE81B011C0E25DA753EB635B92 /* Resources */ = {
+		8F3C0B0E7BC88945A4DA660FB79AF567 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -867,58 +764,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2317E5395A75D85A46B4A21B913E338F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31445EBAC609A3F4C75F9D898C0B10E5 /* NSDate+TPExtend.m in Sources */,
-				B78C380B89918FBE2B901BEAFD9346D0 /* NSMutableArray+TPSafe.m in Sources */,
-				C7BCE2A0B972A5C757A7C805221C8476 /* NSMutableDictionary+TPSafe.m in Sources */,
-				CF8BA58CD2390327E027914D33F08A7F /* NSObject+TPKVO.m in Sources */,
-				4909086BEF67041BD9926C415A90E1D6 /* NSObject+TPNotify.m in Sources */,
-				F76D41870F90D68EDDA861A6C04AA134 /* NSString+TPCalSize.m in Sources */,
-				A000D16AC38AF0AE426715C770CCD7E3 /* NSString+TPCoding.m in Sources */,
-				21112C338FE37F91E84C76B1C75C033B /* NSString+TPDate.m in Sources */,
-				F6269A621E52958030CF8FC1C44A497B /* NSString+TPFilter.m in Sources */,
-				29FDB8D6BC053053A499207A75B2FF3A /* TPCollectionRow.m in Sources */,
-				B3E117AA7152F4B70D72522C3F7D1CA0 /* TPCollectionSection.m in Sources */,
-				F124481E96DE6C10E3633736EFD5ED7C /* TPCollectionViewProxy.m in Sources */,
-				A7393381D8E705BE6A05BA0A051AB107 /* TPCommonUD.m in Sources */,
-				961FB589980A304E6FD09EC6653F6504 /* TPFoundation-dummy.m in Sources */,
-				D791962A56E8217F092325833A8AE243 /* TPFoundationMethodSwizzling.m in Sources */,
-				765B7CDEB82817F24DF9CE2CFF4F016D /* TPGCDQueue.m in Sources */,
-				B90F107E6905BB3FB595D233EB297F5A /* TPGCDSemaphore.m in Sources */,
-				D33492B1362E40360573F6B0A3F0DBD2 /* TPModelID.m in Sources */,
-				5A45942F45219AA7183DE301D56207FE /* TPMultipleProxy.m in Sources */,
-				57ED0F23C3752EEA9C316C161D1B414C /* TPMutableArray.m in Sources */,
-				E5B464F88102F16347AC948585F1318B /* TPQRCode.m in Sources */,
-				5CF0811458AFF4EF5525B86258EF4FAB /* TPScreenShot.m in Sources */,
-				358F39829DF5DD0D32FC5FC72F56543D /* TPTableCellModel.m in Sources */,
-				C03EC09359923882E8A530505855B325 /* TPTableDataPrivateProtocol.m in Sources */,
-				C9A97B7EC66C1BE1F2D7B6A383F0FF83 /* TPTableRow.m in Sources */,
-				2F30AA8071F9A8AC89AE1E6E3DC6D48E /* TPTableSection.m in Sources */,
-				FC3070B299716E90DE359B31B8A342C8 /* TPTableViewProxy.m in Sources */,
-				FF85D21F786BD08FDA1D1C7C3BF6FFEB /* TPThreadSafeArray.m in Sources */,
-				36FC29CAD89203BAE4EF0ADE8BD7F369 /* TPThreadSafeDictionary.m in Sources */,
-				37867708C0CF6B0FCE0470F3C455AC4D /* TPVerify.m in Sources */,
-				D5F1CAACA48CB4029A44CC1E3D09FA31 /* TPWeakProxy.m in Sources */,
-				BA28F1E5CFD310DCF22C784987882E11 /* UIApplication+TPExtend.m in Sources */,
-				66AE5082462D09A56216C7789B63AC26 /* UICollectionViewCell+TPCollectionDataPrivate.m in Sources */,
-				C53ABC53211F2933EB4486AA77EA35CA /* UIDevice+TPExtend.m in Sources */,
-				3FEEF6CF322A9BD08ED0F8AC4330F4B9 /* UIImage+TPExtend.m in Sources */,
-				93E9FBA74FB17AC225A1B32059C59F13 /* UIScrollView+TPExtend.m in Sources */,
-				22D2597D84186D1184F9F37768FE6AA7 /* UITableView+TPCellModel.m in Sources */,
-				854553ECF80B06032342768EB9D3D855 /* UIView+TPExtend.m in Sources */,
-				69091BC2981DF21A1D48AEFF90509E64 /* UIView+TPToImage.m in Sources */,
-				CBC919127BFC0C60587FCAE6D41A7134 /* UIViewController+TPPresentStyle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		23CD4FD83120E51E54A074B938410235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C24173AB5D31DEB5326A57EB993EC43D /* Pods-TPFoundation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97385FEC4438934B57CBF921F6107AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485994864AADB87AE17A581ABE81860C /* NSDate+TPExtend.m in Sources */,
+				7B61B19B9F5B10D6E900EB91ADA81121 /* NSMutableArray+TPSafe.m in Sources */,
+				C85679A84D42184FA4583C1E8EAD911F /* NSMutableDictionary+TPSafe.m in Sources */,
+				426869E75AB500C962D87610F3A22F03 /* NSObject+TPKVO.m in Sources */,
+				837B2AB73F3F56E6827BF2B0B50A382A /* NSObject+TPNotify.m in Sources */,
+				8ED319314702265CA3E9867A63C81EC2 /* NSString+TPCalSize.m in Sources */,
+				E196F04D1F30566D54FF5D67DCC6D07E /* NSString+TPCoding.m in Sources */,
+				B54F51D6CECC232D94A9DAE0BE3785D5 /* NSString+TPDate.m in Sources */,
+				2EA945743F8E6AA2DC56E5CF87D3A14E /* NSString+TPFilter.m in Sources */,
+				C6744B3C5C3106ABBADF1BD5EF3FA303 /* TPCollectionRow.m in Sources */,
+				9C6899B36C54D995DD08CE5F9300C54D /* TPCollectionSection.m in Sources */,
+				A33E6B18D2CBCFED1E7A4300B7250901 /* TPCollectionViewProxy.m in Sources */,
+				49933F2328E43A78C9502C24E475AF7B /* TPCommonUD.m in Sources */,
+				5E4BAF14BDF5CDFAD9EF8F6906ABFC7B /* TPFoundation-dummy.m in Sources */,
+				BFBC5F871D8556D3854EDC3065B4BC04 /* TPFoundationMethodSwizzling.m in Sources */,
+				766EC632A9386B44615317688562A909 /* TPGCDQueue.m in Sources */,
+				8D44915B5D3600539AC6E08BB729DE85 /* TPGCDSemaphore.m in Sources */,
+				A59BA8126799AF4720C5DDD4DD92B771 /* TPModelID.m in Sources */,
+				554E48D25B8EFF5F5AD7D6A8725264FC /* TPMultipleProxy.m in Sources */,
+				D8BC550EAB21D250C9E972E92E1B2A8D /* TPMutableArray.m in Sources */,
+				7AFF8890867375FA555A4AC23E952F5D /* TPTableCellModel.m in Sources */,
+				76FCF921C9705CD8058F987B14E09E0C /* TPTableDataPrivateProtocol.m in Sources */,
+				D3B5707C1A0F1A1B2DDD0B00ACAB064F /* TPTableRow.m in Sources */,
+				BB7EEC2CD499EC4E7E384B56F86D86CF /* TPTableSection.m in Sources */,
+				AB4B8B268F44F4B1D15E187EB232C529 /* TPTableViewProxy.m in Sources */,
+				D1BB66E21D69F485AA140EAC9E676078 /* TPThreadSafeArray.m in Sources */,
+				E5BCC523E9060AA389E207F5F13A4208 /* TPThreadSafeDictionary.m in Sources */,
+				EC33CACFCFFADB7D69ED246A211FC413 /* TPVerify.m in Sources */,
+				43CEC9C09D9C91EE640C79509EB4FB0D /* TPWeakProxy.m in Sources */,
+				88AF15FEE36A0F9886DBA1ED23481CD5 /* UIApplication+TPExtend.m in Sources */,
+				0AA88BC380973080027E07916FD3B6F6 /* UICollectionViewCell+TPCollectionDataPrivate.m in Sources */,
+				E3B67BC1B0C910079BFB6AEA4A256543 /* UIDevice+TPExtend.m in Sources */,
+				39901A0A00DCD008796D991A9F4DD1B5 /* UITableView+TPCellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -933,17 +823,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A561A2EE33549A2B56DB627E3E1CAA7 /* PBXTargetDependency */ = {
+		1EFB61832F9FAF78B94F17EB24AC25E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TPFoundation;
 			target = C93BAF2A5296CEEFFDBD791C67B4CAD5 /* TPFoundation */;
-			targetProxy = 087339D85B1BCC8278050A18065CFB7A /* PBXContainerItemProxy */;
+			targetProxy = C6F0C64494085CCA133C98986BEB1435 /* PBXContainerItemProxy */;
 		};
-		7A01C8F282F126C1B57FE5C4505A08AB /* PBXTargetDependency */ = {
+		47B4828192BFB4965BDEF4FE66E1C19F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TPFoundation_Example";
 			target = 76055D6E0E7FFF681A45337FF59B01B7 /* Pods-TPFoundation_Example */;
-			targetProxy = A59679E62F59F00C2C860340DFB7F141 /* PBXContainerItemProxy */;
+			targetProxy = 16337195EA2989D73124196E45D644E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -974,36 +864,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		258130D084FBA69BE0FDC1A46C656742 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8A59B2B50B0259F19A22E11080D23AA /* TPFoundation.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TPFoundation/TPFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TPFoundation/TPFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TPFoundation/TPFoundation.modulemap";
-				PRODUCT_MODULE_NAME = TPFoundation;
-				PRODUCT_NAME = TPFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1174,9 +1034,9 @@
 			};
 			name = Release;
 		};
-		C8A13AB12F501EF2C087D3884A3CB768 /* Release */ = {
+		A2189E22CC32518A92E98243CEF31C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 269100C685EB02F2AA2E7196E6062FD9 /* TPFoundation.release.xcconfig */;
+			baseConfigurationReference = B4AB69FCA4B0B420850DE757B6016E2A /* TPFoundation.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1199,11 +1059,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1267,9 +1126,49 @@
 			};
 			name = Release;
 		};
+		D646C36CDA31A82F7D3A47BBFD1C7E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6D48B0C93460D06DD022BE3F6BE1F6 /* TPFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPFoundation/TPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPFoundation/TPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPFoundation/TPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = TPFoundation;
+				PRODUCT_NAME = TPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		400CBBE12A77C816A75B08B189B65842 /* Build configuration list for PBXNativeTarget "TPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2189E22CC32518A92E98243CEF31C30 /* Debug */,
+				D646C36CDA31A82F7D3A47BBFD1C7E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1284,15 +1183,6 @@
 			buildConfigurations = (
 				2D580E2315A58CC6C3046799CB8896BB /* Debug */,
 				2FD42B18FA58863B77E2E47EF849E2CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		91BA781B98C50C2BB737A45975F8342C /* Build configuration list for PBXNativeTarget "TPFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				258130D084FBA69BE0FDC1A46C656742 /* Debug */,
-				C8A13AB12F501EF2C087D3884A3CB768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
