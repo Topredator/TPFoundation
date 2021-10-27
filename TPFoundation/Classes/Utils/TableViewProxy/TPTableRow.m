@@ -14,7 +14,7 @@
 @end
 
 @implementation TPTableRow
-- (id)identity {
+- (id)tp_identity {
     return self.mIdentity;
 }
 + (instancetype)row {

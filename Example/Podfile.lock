@@ -1,12 +1,12 @@
 PODS:
-  - TPFoundation (1.0.3):
-    - TPFoundation/Base (= 1.0.3)
-    - TPFoundation/Category (= 1.0.3)
-    - TPFoundation/Utils (= 1.0.3)
-  - TPFoundation/Base (1.0.3)
-  - TPFoundation/Category (1.0.3):
+  - TPFoundation (1.0.4):
+    - TPFoundation/Base (= 1.0.4)
+    - TPFoundation/Category (= 1.0.4)
+    - TPFoundation/Utils (= 1.0.4)
+  - TPFoundation/Base (1.0.4)
+  - TPFoundation/Category (1.0.4):
     - TPFoundation/Base
-  - TPFoundation/Utils (1.0.3):
+  - TPFoundation/Utils (1.0.4):
     - TPFoundation/Base
     - TPFoundation/Category
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TPFoundation: a12d73c9b43160d95ccebbc588c7d52cfc3e9014
+  TPFoundation: d34fbaadcf101c3019461bd74eeab4473c1b05df
 
 PODFILE CHECKSUM: 767ef0b4c6090c45d0607c0088f2407b37b62998
 

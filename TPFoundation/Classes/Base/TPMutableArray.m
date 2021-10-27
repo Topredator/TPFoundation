@@ -69,7 +69,7 @@
 
 @implementation TPMutableArray
 #pragma mark ------------------------  TPModelId  ---------------------------
-- (id)identity {
+- (id)tp_identity {
     if (_mIdentity) return _mIdentity;
     return nil;
 }

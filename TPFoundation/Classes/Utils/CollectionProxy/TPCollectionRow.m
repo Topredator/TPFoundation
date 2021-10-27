@@ -14,7 +14,7 @@
 @end
 
 @implementation TPCollectionRow
-- (id)identity {
+- (id)tp_identity {
     return self.mIdentity;
 }
 - (instancetype)init {
