@@ -14,7 +14,7 @@ NSString *TPMakeMemoryAddressIdentify(id obj);
 
 @protocol TPModelID <NSObject>
 /// 身份标识
-- (id)identity;
+- (id)tp_identity;
 @end
 
 @interface NSString (TPModelID) <TPModelID>

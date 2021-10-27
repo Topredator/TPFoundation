@@ -15,17 +15,17 @@ NSString *TPMakeMemoryAddressIdentify(id obj) {
 }
 
 @implementation NSString (TPModelID)
-- (id)identity { return self; }
+- (id)tp_identity { return self; }
 @end
 
 @implementation NSNumber (TPModelID)
-- (id)identity { return self; }
+- (id)tp_identity { return self; }
 @end
 
 @implementation NSValue (TPModelID)
-- (id)identity { return self; }
+- (id)tp_identity { return self; }
 @end
 
 @implementation NSDictionary (TPModelID)
-- (id)identity { return [self objectForKey:kTPModelIDKey]; }
+- (id)tp_identity { return [self objectForKey:kTPModelIDKey]; }
 @end

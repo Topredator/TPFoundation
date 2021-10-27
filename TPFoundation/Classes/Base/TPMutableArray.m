@@ -106,7 +106,7 @@
 
 - (void)setObjectToDictionaryIfNeed:(id)object {
     if (![object conformsToProtocol:@protocol(TPModelID)]) return;
-    id identity = [object identity];
+    id identity = [object tp_identity];
     if (!identity) return;
     TPArrayKeyedObjectSet *set = [self.mDictionary objectForKey:identity];
     if (!set) {
@@ -117,7 +117,7 @@
 }
 - (void)removeObjectInDictionaryIfNeed:(id)object {
     if (![object conformsToProtocol:@protocol(TPModelID)]) return;
-    id identity = [object identity];
+    id identity = [object tp_identity];
     if (!identity) return;
     TPArrayKeyedObjectSet *set = [self.mDictionary objectForKey:identity];
     if (set && [set objectCount:object] > 0) {
