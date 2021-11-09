@@ -54,5 +54,6 @@
 #import "TPGCDSemaphore.h"
 /// Math
 #import "TPMath.h"
-
+/// LinkModel
+#import "TPLinkModel.h"
 #endif /* TPFoundation_h */
