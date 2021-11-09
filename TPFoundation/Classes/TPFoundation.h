@@ -52,5 +52,7 @@
 /// GCD
 #import "TPGCDQueue.h"
 #import "TPGCDSemaphore.h"
+/// Math
+#import "TPMath.h"
 
 #endif /* TPFoundation_h */

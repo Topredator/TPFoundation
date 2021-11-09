@@ -33,6 +33,8 @@
 #import "TPCommonUD.h"
 #import "TPGCDQueue.h"
 #import "TPGCDSemaphore.h"
+#import "TPLinkModel.h"
+#import "TPMath.h"
 #import "TPTableCellModel.h"
 #import "UITableView+TPCellModel.h"
 #import "TPDataProxyProtocol.h"

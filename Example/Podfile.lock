@@ -1,4 +1,7 @@
 PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.17)
   - TPFoundation (1.0.4):
     - TPFoundation/Base (= 1.0.4)
     - TPFoundation/Category (= 1.0.4)
@@ -9,17 +12,102 @@ PODS:
   - TPFoundation/Utils (1.0.4):
     - TPFoundation/Base
     - TPFoundation/Category
+  - TPUIKit (1.0.8):
+    - Masonry
+    - TPUIKit/Alert (= 1.0.8)
+    - TPUIKit/Banner (= 1.0.8)
+    - TPUIKit/Base (= 1.0.8)
+    - TPUIKit/Blank (= 1.0.8)
+    - TPUIKit/Category (= 1.0.8)
+    - TPUIKit/GradientView (= 1.0.8)
+    - TPUIKit/GraphicView (= 1.0.8)
+    - TPUIKit/MarginLabel (= 1.0.8)
+    - TPUIKit/Menu (= 1.0.8)
+    - TPUIKit/Navigator (= 1.0.8)
+    - TPUIKit/PageControl (= 1.0.8)
+    - TPUIKit/QRCode (= 1.0.8)
+    - TPUIKit/Refresh (= 1.0.8)
+    - TPUIKit/ScreenShot (= 1.0.8)
+    - TPUIKit/ScrollTable (= 1.0.8)
+    - TPUIKit/ShadowCell (= 1.0.8)
+    - TPUIKit/SimButton (= 1.0.8)
+    - TPUIKit/Tabbar (= 1.0.8)
+    - TPUIKit/Toast (= 1.0.8)
+  - TPUIKit/Alert (1.0.8):
+    - Masonry
+  - TPUIKit/Banner (1.0.8):
+    - Masonry
+  - TPUIKit/Base (1.0.8):
+    - Masonry
+  - TPUIKit/Blank (1.0.8):
+    - Masonry
+    - TPUIKit/Base
+  - TPUIKit/Category (1.0.8):
+    - Masonry
+    - TPUIKit/Base
+  - TPUIKit/GradientView (1.0.8):
+    - Masonry
+  - TPUIKit/GraphicView (1.0.8):
+    - Masonry
+  - TPUIKit/MarginLabel (1.0.8):
+    - Masonry
+  - TPUIKit/Menu (1.0.8):
+    - Masonry
+    - TPUIKit/Base
+  - TPUIKit/Navigator (1.0.8):
+    - Masonry
+  - TPUIKit/PageControl (1.0.8):
+    - Masonry
+    - TPUIKit/Base
+  - TPUIKit/QRCode (1.0.8):
+    - Masonry
+  - TPUIKit/Refresh (1.0.8):
+    - Masonry
+    - MJRefresh (~> 3.1.14)
+    - TPUIKit/Base
+  - TPUIKit/ScreenShot (1.0.8):
+    - Masonry
+  - TPUIKit/ScrollTable (1.0.8):
+    - Masonry
+    - TPUIKit/Banner
+    - TPUIKit/Base
+    - TPUIKit/Tabbar
+  - TPUIKit/ShadowCell (1.0.8):
+    - Masonry
+    - TPUIKit/Base
+  - TPUIKit/SimButton (1.0.8):
+    - Masonry
+  - TPUIKit/Tabbar (1.0.8):
+    - Masonry
+    - TPUIKit/Base
+  - TPUIKit/Toast (1.0.8):
+    - Masonry
+    - MBProgressHUD (~> 1.1.0)
+    - TPUIKit/Base
 
 DEPENDENCIES:
+  - Masonry
   - TPFoundation (from `../`)
+  - TPUIKit
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - TPUIKit
 
 EXTERNAL SOURCES:
   TPFoundation:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
   TPFoundation: d34fbaadcf101c3019461bd74eeab4473c1b05df
+  TPUIKit: 868c10e2e049cb900c14efc1a8259ad554b2b14a
 
-PODFILE CHECKSUM: 767ef0b4c6090c45d0607c0088f2407b37b62998
+PODFILE CHECKSUM: 5a7a2fc67851fbb9950faeed9f4248e87d6db411
 
 COCOAPODS: 1.10.1

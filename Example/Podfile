@@ -4,9 +4,9 @@ platform :ios, '9.0'
 target 'TPFoundation_Example' do
   pod 'TPFoundation', :path => '../'
 
+  pod 'TPUIKit'
+  pod 'Masonry'
   target 'TPFoundation_Tests' do
     inherit! :search_paths
-
-    
   end
 end
