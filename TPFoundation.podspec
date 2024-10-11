@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TPFoundation'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A collection function library of TPFoundation.'
 
 # This description is used to generate tags and improve search results.
